@@ -9,6 +9,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
@@ -20,6 +23,7 @@ public class MoveyActivity extends BaseActivity {
 
     private BottomNavigationView mBottomNav;
     private int mSelectedItem;
+    private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +53,34 @@ public class MoveyActivity extends BaseActivity {
         selectFragment(selectedItem);
         mBottomNav.setSelectedItemId(R.id.menu_feed);
 
+         mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    System.out.println("User logged in");
+                } else {
+                    System.out.println("User not logged in");
 
+                    selectFragment(mBottomNav.getMenu().getItem(0));
+                    mBottomNav.setSelectedItemId(R.id.menu_feed);
+                }
+            }
+        };
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseAuth.addAuthStateListener(mAuthListener);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (mAuthListener != null) {
+            firebaseAuth.removeAuthStateListener(mAuthListener);
+        }
     }
 
     @Override

@@ -21,8 +21,11 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.main.MainActivity;
 
 /**
@@ -35,13 +38,12 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
     private EditText editTextEmail;
     private EditText editTextPassword;
     private Button buttonSignup;
-
     private TextView textViewSignin;
-
     private ProgressDialog progressDialog;
 
     //defining firebaseauth object
     private FirebaseAuth firebaseAuth;
+    DatabaseReference firebaseDb = FirebaseDatabase.getInstance().getReference("social").child("users");
 
 
     public RegisterFragment() {
@@ -122,6 +124,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //checking if success
                         if(task.isSuccessful()){
+                            firebaseDb.child(firebaseAuth.getCurrentUser().getUid()).setValue(new User("Elad","Keyshawn"));
                             Toast.makeText(getActivity(),"Registration successful",Toast.LENGTH_LONG).show();
                             getActivity().finish();
                         }

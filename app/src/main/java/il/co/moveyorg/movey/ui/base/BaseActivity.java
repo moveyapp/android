@@ -31,7 +31,7 @@ public class BaseActivity extends AppCompatActivity {
 
     private ActivityComponent mActivityComponent;
     private long mActivityId;
-    private FirebaseAuth firebaseAuth;
+    protected FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
