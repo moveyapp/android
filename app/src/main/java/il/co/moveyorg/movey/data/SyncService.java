@@ -14,7 +14,7 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 import timber.log.Timber;
-import il.co.moveyorg.movey.BoilerplateApplication;
+import il.co.moveyorg.movey.MoveyApplication;
 import il.co.moveyorg.movey.data.model.Ribot;
 import il.co.moveyorg.movey.util.AndroidComponentUtil;
 import il.co.moveyorg.movey.util.NetworkUtil;
@@ -36,7 +36,7 @@ public class SyncService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        BoilerplateApplication.get(this).getComponent().inject(this);
+        MoveyApplication.get(this).getComponent().inject(this);
     }
 
     @Override

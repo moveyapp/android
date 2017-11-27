@@ -6,7 +6,7 @@ import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
-import il.co.moveyorg.movey.BoilerplateApplication;
+import il.co.moveyorg.movey.MoveyApplication;
 import il.co.moveyorg.movey.data.DataManager;
 import il.co.moveyorg.movey.test.common.injection.component.DaggerTestComponent;
 import il.co.moveyorg.movey.test.common.injection.component.TestComponent;
@@ -26,7 +26,7 @@ public class TestComponentRule implements TestRule {
 
     public TestComponentRule(Context context) {
         mContext = context;
-        BoilerplateApplication application = BoilerplateApplication.get(context);
+        MoveyApplication application = MoveyApplication.get(context);
         mTestComponent = DaggerTestComponent.builder()
                 .applicationTestModule(new ApplicationTestModule(application))
                 .build();
@@ -45,7 +45,7 @@ public class TestComponentRule implements TestRule {
         return new Statement() {
             @Override
             public void evaluate() throws Throwable {
-                BoilerplateApplication application = BoilerplateApplication.get(mContext);
+                MoveyApplication application = MoveyApplication.get(mContext);
                 application.setComponent(mTestComponent);
                 base.evaluate();
                 application.setComponent(null);

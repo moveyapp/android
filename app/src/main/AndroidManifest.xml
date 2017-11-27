@@ -6,13 +6,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="il.co.moveyorg.movey.BoilerplateApplication"
+        android:name="il.co.moveyorg.movey.MoveyApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="il.co.moveyorg.movey.ui.main.MainActivity"
+            android:name="il.co.moveyorg.movey.ui.movey.MoveyActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
         </receiver>
 
         <activity android:name="il.co.moveyorg.movey.ui.auth.AuthActivity" />
-        <activity android:name="il.co.moveyorg.movey.ui.movey.MoveyActivity"></activity>
+
     </application>
 
 </manifest>

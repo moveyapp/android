@@ -11,7 +11,7 @@ import il.co.moveyorg.movey.injection.component.ApplicationComponent;
 import il.co.moveyorg.movey.injection.component.DaggerApplicationComponent;
 import il.co.moveyorg.movey.injection.module.ApplicationModule;
 
-public class BoilerplateApplication extends Application  {
+public class MoveyApplication extends Application  {
 
     ApplicationComponent mApplicationComponent;
 
@@ -25,8 +25,8 @@ public class BoilerplateApplication extends Application  {
         }
     }
 
-    public static BoilerplateApplication get(Context context) {
-        return (BoilerplateApplication) context.getApplicationContext();
+    public static MoveyApplication get(Context context) {
+        return (MoveyApplication) context.getApplicationContext();
     }
 
     public ApplicationComponent getComponent() {

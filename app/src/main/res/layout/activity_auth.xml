@@ -7,7 +7,9 @@
     <FrameLayout
         android:id="@+id/activity_auth_fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_background_activity_auth">
+
     </FrameLayout>
 
 </LinearLayout>

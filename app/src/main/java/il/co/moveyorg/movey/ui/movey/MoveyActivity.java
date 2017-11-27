@@ -1,5 +1,6 @@
 package il.co.moveyorg.movey.ui.movey;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,6 +10,7 @@ import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 import il.co.moveyorg.movey.ui.movey.feed.FeedFragment;
 
@@ -28,8 +30,11 @@ public class MoveyActivity extends BaseActivity {
         mBottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                selectFragment(item);
-                return true;
+                boolean fragmentSelected = selectFragment(item);
+                if (!fragmentSelected) {
+                    mBottomNav.setSelectedItemId(R.id.menu_feed);
+                }
+                return fragmentSelected;
             }
         });
 
@@ -40,11 +45,17 @@ public class MoveyActivity extends BaseActivity {
         } else {
             selectedItem = mBottomNav.getMenu().getItem(0);
         }
+
         selectFragment(selectedItem);
+        mBottomNav.setSelectedItemId(R.id.menu_feed);
 
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -63,13 +74,14 @@ public class MoveyActivity extends BaseActivity {
         }
     }
 
-    private void selectFragment(MenuItem item) {
+    private boolean selectFragment(MenuItem item) {
         Fragment frag = null;
         // init corresponding fragment
         switch (item.getItemId()) {
-            case R.id.menu_feed:
+            case R.id.menu_feed: {
                 frag = new FeedFragment();
                 break;
+            }
 //            case R.id.menu_media:
 //                frag = new FeedFragment();
 //                break;
@@ -79,9 +91,13 @@ public class MoveyActivity extends BaseActivity {
 //                break;
 
 
-            case R.id.menu_profile:
+            case R.id.menu_profile: {
+                if (!validateUser()) {
+                    return false;
+                }
                 frag = new ProfileFragment();
                 break;
+            }
         }
 
         // update selected item
@@ -99,8 +115,14 @@ public class MoveyActivity extends BaseActivity {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.container, frag, frag.getTag());
             ft.commit();
+            return true;
         }
+
+        return false;
+
     }
+
+
 
     private void updateToolbarText(CharSequence text) {
         ActionBar actionBar = getSupportActionBar();
