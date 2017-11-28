@@ -6,9 +6,16 @@ import android.support.v4.util.LongSparseArray;
 import android.support.v7.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import timber.log.Timber;
 import il.co.moveyorg.movey.MoveyApplication;
@@ -32,7 +39,6 @@ public class BaseActivity extends AppCompatActivity {
     private ActivityComponent mActivityComponent;
     private long mActivityId;
     protected FirebaseAuth firebaseAuth;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,8 +64,14 @@ public class BaseActivity extends AppCompatActivity {
 
     protected boolean isUserLoggedIn() {
         return firebaseAuth.getCurrentUser() != null;
-
     }
+
+
+
+    protected FirebaseUser getCurrentAuthUser() {
+        return firebaseAuth.getCurrentUser();
+    }
+
 
     protected boolean validateUser() {
         if(!isUserLoggedIn()) {

@@ -124,8 +124,12 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //checking if success
                         if(task.isSuccessful()){
-                            firebaseDb.child(firebaseAuth.getCurrentUser().getUid()).setValue(new User("Elad","Keyshawn"));
                             Toast.makeText(getActivity(),"Registration successful",Toast.LENGTH_LONG).show();
+                            User user = new
+                                    User.Builder(firebaseAuth.getCurrentUser().getUid(),firebaseAuth.getCurrentUser().getEmail())
+                                    .build();
+                            firebaseDb.child(firebaseAuth.getCurrentUser().getUid()).setValue(user);
+                            startActivity(new Intent(getActivity(),EditUserDetailsActivity.class));
                             getActivity().finish();
                         }
                         else{

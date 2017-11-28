@@ -18,6 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
+import il.co.moveyorg.movey.ui.auth.EditUserDetailsActivity;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
 import timber.log.Timber;
 
@@ -42,6 +43,9 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
 
     @BindView(R.id.fragment_profile_reset_password_button)
     Button resetPassBtn;
+
+    @BindView(R.id.fragment_profile_edit_button)
+    Button editBtn;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -68,6 +72,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         userEmail.setText(user.getEmail());
         userFirstName.setText(user.getDisplayName());
         logoutBtn.setOnClickListener(this);
+        editBtn.setOnClickListener(this);
         return view;
     }
 
@@ -76,7 +81,13 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         switch (v.getId()) {
             case R.id.fragment_profile_logout_button: {
                 firebaseAuth.signOut();
+                break;
             }
+            case R.id.fragment_profile_edit_button: {
+                startActivity(new Intent(getActivity(),EditUserDetailsActivity.class));
+                break;
+            }
+
         }
     }
 }
