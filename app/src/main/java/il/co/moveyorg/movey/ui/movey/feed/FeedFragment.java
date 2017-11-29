@@ -87,5 +87,4 @@ public class FeedFragment extends BaseFragment implements MainMvpView {
         mRibotsAdapter.notifyDataSetChanged();
         Toast.makeText(getContext(), R.string.empty_ribots, Toast.LENGTH_LONG).show();
     }
-
 }
