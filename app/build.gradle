@@ -108,6 +108,11 @@ dependencies {
     compile "com.android.support:support-annotations:$SUPPORT_LIBRARY_VERSION"
     compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
 
+    compile "com.google.android.gms:play-services-location:$PLAY_SERVICES_VERSION"
+    compile "com.google.android.gms:play-services-places:$PLAY_SERVICES_VERSION"
+    compile 'pl.charmas.android:android-reactive-location2:2.0@aar'
+    compile 'com.karumi:dexter:4.2.0'
+
     compile("com.squareup.sqlbrite2:sqlbrite:2.0.0") {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
