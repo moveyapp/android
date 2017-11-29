@@ -1,4 +1,4 @@
-package il.co.moveyorg.movey.ui.movey;
+package il.co.moveyorg.movey.ui.movey.profile;
 
 
 import android.Manifest;
@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -36,12 +37,15 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import org.reactivestreams.Subscription;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.auth.EditUserDetailsActivity;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import pl.charmas.android.reactivelocation2.ReactiveLocationProvider;
 import timber.log.Timber;
@@ -102,7 +106,6 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         FirebaseUser user = firebaseAuth.getCurrentUser();
-        Timber.i("Profile Fragment -> User:" + firebaseAuth.getCurrentUser().getUid());
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
@@ -189,23 +192,39 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         map.getUiSettings().setMyLocationButtonEnabled(false);
         map.setMyLocationEnabled(true);
 
-        // Needs to call MapsInitializer before doing any CameraUpdateFactory calls
         MapsInitializer.initialize(this.getActivity());
+
+        LocationRequest request = LocationRequest.create() //standard GMS LocationRequest
+                .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
+                .setNumUpdates(5)
+                .setInterval(100);
 
         ReactiveLocationProvider locationProvider = new ReactiveLocationProvider(getActivity());
 
-        locationProvider.getLastKnownLocation()
+        Disposable subscription = locationProvider.getUpdatedLocation(request)
                 .subscribe(new Consumer<Location>() {
                     @Override
                     public void accept(Location location) throws Exception {
-
-                        Toast.makeText(getActivity(), "Got current location", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Got current location" + location.toString(), Toast.LENGTH_SHORT).show();
                         // Updates the location and zoom of the MapView
-                        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(),location.getLongitude()), 10);
+                        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
                         map.animateCamera(cameraUpdate);
                     }
-
                 });
+
+
+//        locationProvider.getLastKnownLocation()
+//                .subscribe(new Consumer<Location>() {
+//                    @Override
+//                    public void accept(Location location) throws Exception {
+//
+//                        Toast.makeText(getActivity(), "Got current location" + location.toString(), Toast.LENGTH_SHORT).show();
+//                        // Updates the location and zoom of the MapView
+//                        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
+//                        map.animateCamera(cameraUpdate);
+//                    }
+//
+//                });
 
 
     }

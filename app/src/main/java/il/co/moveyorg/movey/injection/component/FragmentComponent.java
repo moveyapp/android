@@ -8,7 +8,7 @@ import dagger.Subcomponent;
 import il.co.moveyorg.movey.injection.PerActivity;
 import il.co.moveyorg.movey.injection.module.FragmentModule;
 import il.co.moveyorg.movey.ui.movey.feed.FeedFragment;
-import il.co.moveyorg.movey.ui.movey.ProfileFragment;
+import il.co.moveyorg.movey.ui.movey.profile.ProfileFragment;
 
 /**
  * This component inject dependencies to all fragments across the application
