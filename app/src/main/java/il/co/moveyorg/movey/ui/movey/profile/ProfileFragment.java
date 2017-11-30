@@ -37,8 +37,6 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
-import org.reactivestreams.Subscription;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
@@ -48,7 +46,6 @@ import il.co.moveyorg.movey.ui.base.BaseFragment;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import pl.charmas.android.reactivelocation2.ReactiveLocationProvider;
-import timber.log.Timber;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -88,8 +85,29 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     @BindView(R.id.fragment_profile_edit_button)
     Button editBtn;
 
+
+
     private DatabaseReference userDbRef;
     private User currentUser;
+    private boolean locationPermissionGranted = false;
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        MapsInitializer.initialize(getActivity());
+
+        if (mapView != null) {
+            mapView.onCreate(savedInstanceState);
+        }
+        initializeMap();
+    }
+
+    private void initializeMap() {
+        if ( locationPermissionGranted && mapView != null) {
+            mapView.getMapAsync(this);
+            //setup markers etc...
+        }
+    }
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -116,7 +134,6 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         logoutBtn.setOnClickListener(this);
         editBtn.setOnClickListener(this);
 
-        mapView.onCreate(savedInstanceState);
 
         userDbRef =
                 FirebaseDatabase.getInstance().getReference().child("social").child("users")
@@ -141,6 +158,10 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         });
 
 
+        mapView.onCreate(savedInstanceState);
+
+        initializeMap();
+
         // Gets to GoogleMap from the MapView and does initialization stuff
         askForLocationPermission();
         return view;
@@ -149,7 +170,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     public void askForLocationPermission() {
 
         Dexter.withActivity(getActivity())
-                .withPermission(Manifest.permission.ACCESS_FINE_LOCATION)
+                .withPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
                 .withListener(this)
                 .check();
     }
@@ -171,8 +192,9 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
 
     @Override
     public void onPermissionGranted(PermissionGrantedResponse response) {
+        locationPermissionGranted = true;
+        initializeMap();
         Toast.makeText(getActivity(), "Location permission granted!", Toast.LENGTH_SHORT).show();
-        mapView.getMapAsync(this);
     }
 
     @Override
@@ -188,11 +210,10 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     @SuppressLint("MissingPermission")
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        if(!locationPermissionGranted) return;
         map = googleMap;
         map.getUiSettings().setMyLocationButtonEnabled(false);
         map.setMyLocationEnabled(true);
-
-        MapsInitializer.initialize(this.getActivity());
 
         LocationRequest request = LocationRequest.create() //standard GMS LocationRequest
                 .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
@@ -205,27 +226,41 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                 .subscribe(new Consumer<Location>() {
                     @Override
                     public void accept(Location location) throws Exception {
-                        Toast.makeText(getActivity(), "Got current location" + location.toString(), Toast.LENGTH_SHORT).show();
-                        // Updates the location and zoom of the MapView
                         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
                         map.animateCamera(cameraUpdate);
                     }
                 });
 
+    }
 
-//        locationProvider.getLastKnownLocation()
-//                .subscribe(new Consumer<Location>() {
-//                    @Override
-//                    public void accept(Location location) throws Exception {
-//
-//                        Toast.makeText(getActivity(), "Got current location" + location.toString(), Toast.LENGTH_SHORT).show();
-//                        // Updates the location and zoom of the MapView
-//                        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
-//                        map.animateCamera(cameraUpdate);
-//                    }
-//
-//                });
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mapView.onSaveInstanceState(outState);
+    }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        mapView.onResume();
+        initializeMap();
+    }
 
+    @Override
+    public void onPause() {
+        super.onPause();
+        mapView.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mapView.onDestroy();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        mapView.onLowMemory();
     }
 }
