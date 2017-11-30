@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -13,6 +14,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -20,6 +24,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 import com.sangcomz.fishbun.FishBun;
 import com.sangcomz.fishbun.define.Define;
 
@@ -56,7 +63,11 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
 
     private User currentUserModel;
     private FirebaseUser currentUser;
-    private ArrayList<Uri> mArrayPaths;
+    private ArrayList<Uri> chosenPhotosUriList;
+    private StorageReference storageRef;
+    private Uri chosenProfileImageUri;
+    private Uri uploadedProfileImageUrl;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,9 +78,17 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
 
         currentUser = FirebaseAuth.getInstance().getCurrentUser();
 
-        if(currentUser != null) {
-            FirebaseDbHelper.Users.getUser(currentUser.getUid(),this);
+        if(currentUser == null){
+            finish();
+            return;
         }
+
+
+        FirebaseDbHelper.Users.getUser(currentUser.getUid(),this);
+        storageRef = FirebaseStorage.getInstance().getReference("users").child(currentUser.getUid());
+
+        // Create a storage reference from our app
+
 
         // TODO: listen (probably in base activity) to auth events and finish activity if logged out
     }
@@ -78,7 +97,7 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.activity_edit_user_details_btn_done: {
-                saveDetails();
+                uploadProfilePicture();
                 break;
             }
             case R.id.activity_edit_user_details_image: {
@@ -106,18 +125,42 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
                 .startAlbum();
     }
 
-    private void saveDetails() {
+    private void submitChanges() {
 
         if(currentUserModel != null) {
             currentUserModel.setUserName(userNameEditText.getText().toString());
             currentUserModel.setFirstName(firstNameEditText.getText().toString());
             currentUserModel.setLastName(lastNameEditText.getText().toString());
             currentUserModel.setCountry(countryEditText.getText().toString());
+            currentUserModel.setProfileImageUrl(uploadedProfileImageUrl.toString());
         }
 
         FirebaseDbHelper.Users.saveUser(currentUserModel);
 
         finish();
+    }
+
+
+
+
+
+    private void uploadProfilePicture() {
+        UploadTask uploadTask = storageRef.putFile(chosenProfileImageUri);
+
+        uploadTask.addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception exception) {
+                // Handle unsuccessful uploads
+            }
+        }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                // taskSnapshot.getMetadata() contains file metadata such as size, content-type, and download URL.
+                 uploadedProfileImageUrl = taskSnapshot.getDownloadUrl();
+                 Toast.makeText(EditUserDetailsActivity.this, "upload successful: "  + uploadedProfileImageUrl, Toast.LENGTH_SHORT).show();
+                 submitChanges();
+            }
+        });
     }
 
     @Override
@@ -129,6 +172,7 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
             firstNameEditText.setText(currentUserModel.getFirstName());
             lastNameEditText.setText(currentUserModel.getLastName());
             countryEditText.setText(currentUserModel.getCountry());
+            Glide.with(this).load(currentUserModel.getProfileImageUrl()).into(profileImageView);
         }
     }
 
@@ -145,9 +189,10 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
                 if (resultCode == RESULT_OK) {
                     ArrayList<Uri> path = imageData.getParcelableArrayListExtra(Define.INTENT_PATH);
                     if(path != null) {
+                        chosenProfileImageUri = path.get(0);
                         profileImageView.setImageURI(path.get(0));
+                        Toast.makeText(this, path.toString(), Toast.LENGTH_SHORT).show();
                     }
-                    Toast.makeText(this, path.toString(), Toast.LENGTH_SHORT).show();
                     break;
                 }
         }
