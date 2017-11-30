@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import com.google.firebase.auth.FirebaseAuth;
 
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.ui.auth.register.RegisterFragment;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 
 public class AuthActivity extends BaseActivity {

@@ -3,6 +3,8 @@ package il.co.moveyorg.movey.injection.component;
 import android.app.Application;
 import android.content.Context;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import javax.inject.Singleton;
 
 import dagger.Component;
@@ -28,5 +30,6 @@ public interface ApplicationComponent {
     DatabaseHelper databaseHelper();
     DataManager dataManager();
     RxEventBus eventBus();
+    FirebaseAuth firebaseAuth();
 
 }

@@ -1,4 +1,4 @@
-package il.co.moveyorg.movey.ui.auth;
+package il.co.moveyorg.movey.ui.auth.login;
 
 
 import android.app.ProgressDialog;
@@ -21,6 +21,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.ui.auth.register.RegisterFragment;
 
 /**
  * A simple {@link Fragment} subclass.

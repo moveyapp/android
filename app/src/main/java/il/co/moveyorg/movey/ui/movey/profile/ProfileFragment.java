@@ -145,10 +145,14 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 currentUser = dataSnapshot.getValue(User.class);
-                userName.setText(currentUser.getUserName());
-                userFirstName.setText(currentUser.getFirstName());
-                userLastName.setText(currentUser.getLastName());
-                userCountry.setText(currentUser.getCountry());
+
+                if(currentUser != null) {
+                    userName.setText(currentUser.getUserName());
+                    userFirstName.setText(currentUser.getFirstName());
+                    userLastName.setText(currentUser.getLastName());
+                    userCountry.setText(currentUser.getCountry());
+                }
+
             }
 
             @Override

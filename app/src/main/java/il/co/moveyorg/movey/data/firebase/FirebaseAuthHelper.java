@@ -5,4 +5,13 @@ package il.co.moveyorg.movey.data.firebase;
  */
 
 public class FirebaseAuthHelper {
+
+    public static class Email {
+
+        public static void login() {
+
+        }
+
+    }
+
 }

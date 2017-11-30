@@ -57,10 +57,14 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 currentUser = dataSnapshot.getValue(User.class);
-                userNameEditText.setText(currentUser.getUserName());
-                firstNameEditText.setText(currentUser.getFirstName());
-                lastNameEditText.setText(currentUser.getLastName());
-                countryEditText.setText(currentUser.getCountry());
+
+                if(currentUser != null) {
+                    userNameEditText.setText(currentUser.getUserName());
+                    firstNameEditText.setText(currentUser.getFirstName());
+                    lastNameEditText.setText(currentUser.getLastName());
+                    countryEditText.setText(currentUser.getCountry());
+                }
+
             }
 
             @Override
@@ -86,12 +90,15 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
     }
 
     private void saveDetails() {
-        currentUser.setUserName(userNameEditText.getText().toString());
-        currentUser.setFirstName(firstNameEditText.getText().toString());
-        currentUser.setLastName(lastNameEditText.getText().toString());
-        currentUser.setCountry(countryEditText.getText().toString());
 
-        userDbRef.setValue(currentUser);
+        if(currentUser != null) {
+            currentUser.setUserName(userNameEditText.getText().toString());
+            currentUser.setFirstName(firstNameEditText.getText().toString());
+            currentUser.setLastName(lastNameEditText.getText().toString());
+            currentUser.setCountry(countryEditText.getText().toString());
+            userDbRef.setValue(currentUser);
+        }
+
         finish();
     }
 }
