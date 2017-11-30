@@ -41,7 +41,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.User;
-import il.co.moveyorg.movey.ui.auth.EditUserDetailsActivity;
+import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
@@ -187,7 +187,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                 break;
             }
             case R.id.fragment_profile_edit_button: {
-                startActivity(new Intent(getActivity(), EditUserDetailsActivity.class));
+                startActivity(new Intent(getActivity(), EditProfileActivity.class));
                 break;
             }
 
