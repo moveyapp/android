@@ -7,5 +7,7 @@ package il.co.moveyorg.movey.ui.base;
  * that then usually will be implemented by an Activity or Fragment.
  */
 public interface MvpView {
-
+//    void showLoading();
+//    void hideLoading();
+//    void onError();
 }

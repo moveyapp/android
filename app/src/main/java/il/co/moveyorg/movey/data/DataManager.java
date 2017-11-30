@@ -20,7 +20,6 @@ public class DataManager {
     private final RibotsService mRibotsService;
     private final DatabaseHelper mDatabaseHelper;
     private final PreferencesHelper mPreferencesHelper;
-
     @Inject
     public DataManager(RibotsService ribotsService, PreferencesHelper preferencesHelper,
                        DatabaseHelper databaseHelper) {

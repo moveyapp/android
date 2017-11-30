@@ -2,12 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="il.co.moveyorg.movey.ui.movey.ProfileFragment">
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context="il.co.moveyorg.movey.ui.movey.profile.ProfileFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/fragment_profile_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
 
         <ImageView
             android:id="@+id/fragment_profile_image"
@@ -16,13 +22,30 @@
             />
 
         <TextView
-            android:id="@+id/fragment_profile_email"
+            android:id="@+id/fragment_profile_email_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <TextView
-            android:id="@+id/fragment_profile_name"
+            android:id="@+id/fragment_profile_username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/fragment_profile_first_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/fragment_profile_last_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/fragment_profile_country_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -53,3 +76,6 @@
 
 
 </FrameLayout>
+
+
+
