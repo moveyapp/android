@@ -16,6 +16,7 @@ import rx.Observable;
 
 public class FirebaseStorageHelper {
     private static final String STORAGE_USERS_PATH = "users";
+    private static final String STORAGE_USER_AVATAR = "avatar";
 
     public static class Users {
 
@@ -25,8 +26,12 @@ public class FirebaseStorageHelper {
                     .child(uid);
         }
 
-       public static Observable<UploadTask.TaskSnapshot> uploadUserProfileImage(String uid, Uri file) {
-           return RxFirebaseStorage.putFile(getUserStorageRef(uid),file);
-       }
+        static StorageReference getUserAvatarRef(String uid) {
+            return getUserStorageRef(uid).child(STORAGE_USER_AVATAR);
+        }
+
+        public static Observable<UploadTask.TaskSnapshot> uploadUserProfileImage(String uid, Uri file) {
+            return RxFirebaseStorage.putFile(getUserAvatarRef(uid), file);
+        }
     }
 }
