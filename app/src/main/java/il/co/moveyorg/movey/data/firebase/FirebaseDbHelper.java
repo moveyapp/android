@@ -28,6 +28,7 @@ public class FirebaseDbHelper {
                     .getReference(DB_USERS_PATH)
                     .child(uid);
         }
+
         public static ValueEventListener getUser(String uid, ValueEventListener valueEventListener) {
            return getUserDbRef(uid).addValueEventListener(valueEventListener);
         }

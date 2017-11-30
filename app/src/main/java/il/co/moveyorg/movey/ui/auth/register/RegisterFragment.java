@@ -4,11 +4,9 @@ package il.co.moveyorg.movey.ui.auth.register;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,21 +15,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
 import javax.inject.Inject;
 
 import il.co.moveyorg.movey.R;
-import il.co.moveyorg.movey.data.model.User;
-import il.co.moveyorg.movey.ui.auth.EditUserDetailsActivity;
+import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.auth.login.LoginFragment;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
-import il.co.moveyorg.movey.ui.main.MainActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -109,7 +98,7 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
     @Override
     public void onRegisterationSuccessful() {
         Toast.makeText(getActivity(),"Registration successful",Toast.LENGTH_LONG).show();
-        startActivity(new Intent(getActivity(),EditUserDetailsActivity.class));
+        startActivity(new Intent(getActivity(),EditProfileActivity.class));
         getActivity().finish();
     }
 

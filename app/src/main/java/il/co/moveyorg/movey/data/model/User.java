@@ -11,6 +11,7 @@ public class User {
     private String lastName;
     private String userName;
     private String country;
+    private String profileImageUrl;
 
     public User() {
     }
@@ -18,6 +19,10 @@ public class User {
     public User(String id, String email) {
         this.id = id;
         this.email = email;
+    }
+
+    public void setProfileImageUrl(String profileImageUrl) {
+        this.profileImageUrl = profileImageUrl;
     }
 
     public void setEmail(String email) {
@@ -71,6 +76,10 @@ public class User {
 
     public String getCountry() {
         return country;
+    }
+
+    public String getProfileImageUrl() {
+        return profileImageUrl;
     }
 
     public static class Builder {

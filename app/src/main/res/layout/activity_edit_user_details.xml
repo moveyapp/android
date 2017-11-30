@@ -3,8 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="il.co.moveyorg.movey.ui.auth.EditUserDetailsActivity"
+    tools:context="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity"
     android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/activity_edit_user_details_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_person_black_24dp"/>
+
+
 
     <EditText
         android:id="@+id/activity_edit_user_details_edittext_username"
