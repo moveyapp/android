@@ -1,11 +1,15 @@
 package il.co.moveyorg.movey.ui.auth;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -15,11 +19,12 @@ import com.google.firebase.database.ValueEventListener;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.data.firebase.FirebaseDbHelper;
 import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 import timber.log.Timber;
 
-public class EditUserDetailsActivity extends BaseActivity implements View.OnClickListener {
+public class EditUserDetailsActivity extends BaseActivity implements View.OnClickListener, ValueEventListener {
 
     @BindView(R.id.activity_edit_user_details_edittext_username)
     EditText userNameEditText;
@@ -36,9 +41,8 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
     @BindView(R.id.activity_edit_user_details_btn_done)
     Button doneBtn;
 
-    private DatabaseReference userDbRef;
-    private User currentUser;
-
+    private User currentUserModel;
+    private FirebaseUser currentUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,38 +50,14 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
         ButterKnife.bind(this);
         doneBtn.setOnClickListener(this);
 
+        currentUser = FirebaseAuth.getInstance().getCurrentUser();
 
-        userDbRef =
-                FirebaseDatabase.getInstance().getReference().child("social").child("users")
-                        .child(firebaseAuth.getCurrentUser().getUid());
+        if(currentUser != null) {
+            FirebaseDbHelper.Users.getUser(currentUser.getUid(),this);
+        }
 
-        userDbRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                currentUser = dataSnapshot.getValue(User.class);
-
-                if(currentUser != null) {
-                    userNameEditText.setText(currentUser.getUserName());
-                    firstNameEditText.setText(currentUser.getFirstName());
-                    lastNameEditText.setText(currentUser.getLastName());
-                    countryEditText.setText(currentUser.getCountry());
-                }
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-            }
-        });
         // TODO: listen (probably in base activity) to auth events and finish activity if logged out
     }
-
-
-
-
 
     @Override
     public void onClick(View v) {
@@ -91,14 +71,32 @@ public class EditUserDetailsActivity extends BaseActivity implements View.OnClic
 
     private void saveDetails() {
 
-        if(currentUser != null) {
-            currentUser.setUserName(userNameEditText.getText().toString());
-            currentUser.setFirstName(firstNameEditText.getText().toString());
-            currentUser.setLastName(lastNameEditText.getText().toString());
-            currentUser.setCountry(countryEditText.getText().toString());
-            userDbRef.setValue(currentUser);
+        if(currentUserModel != null) {
+            currentUserModel.setUserName(userNameEditText.getText().toString());
+            currentUserModel.setFirstName(firstNameEditText.getText().toString());
+            currentUserModel.setLastName(lastNameEditText.getText().toString());
+            currentUserModel.setCountry(countryEditText.getText().toString());
         }
 
+        FirebaseDbHelper.Users.saveUser(currentUserModel);
+
         finish();
+    }
+
+    @Override
+    public void onDataChange(DataSnapshot dataSnapshot) {
+        currentUserModel = dataSnapshot.getValue(User.class);
+
+        if(currentUserModel != null) {
+            userNameEditText.setText(currentUserModel.getUserName());
+            firstNameEditText.setText(currentUserModel.getFirstName());
+            lastNameEditText.setText(currentUserModel.getLastName());
+            countryEditText.setText(currentUserModel.getCountry());
+        }
+    }
+
+    @Override
+    public void onCancelled(DatabaseError databaseError) {
+
     }
 }

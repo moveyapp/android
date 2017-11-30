@@ -8,9 +8,12 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import javax.inject.Inject;
 
+import il.co.moveyorg.movey.data.firebase.FirebaseDbHelper;
+import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.base.BasePresenter;
 
 /**
@@ -21,6 +24,11 @@ public class RegisterPresenter extends BasePresenter<RegisterMvpView> {
 
     @Inject
     FirebaseAuth firebaseAuth;
+
+    @Inject
+    FirebaseDbHelper firebaseDbHelper;
+
+    FirebaseUser currentUser;
 
     @Inject
     public RegisterPresenter() {
@@ -37,7 +45,8 @@ public class RegisterPresenter extends BasePresenter<RegisterMvpView> {
     }
 
     void init() {
-        if(firebaseAuth.getCurrentUser() != null) {
+        currentUser = firebaseAuth.getCurrentUser();
+        if(currentUser != null) {
             getMvpView().onAlreadyRegistered();
         }
     }
@@ -64,14 +73,17 @@ public class RegisterPresenter extends BasePresenter<RegisterMvpView> {
                         //checking if success
                         if(task.isSuccessful()){
                             getMvpView().onRegisterationSuccessful();
-//                            User user = new
-//                                    User.Builder(firebaseAuth.getCurrentUser().getUid(),firebaseAuth.getCurrentUser().getEmail())
-//                                    .build();
-//                            firebaseDb.child(firebaseAuth.getCurrentUser().getUid()).setValue(user);
-//
+
+                            currentUser = firebaseAuth.getCurrentUser();
+                            if(currentUser != null) {
+                                User user = new
+                                User.Builder(currentUser.getUid(),currentUser.getEmail())
+                                    .build();
+
+                                FirebaseDbHelper.Users.saveUser(user);
+                            }
                         }
                         else{
-                            //display some message here
                             getMvpView().onRegisterationFailed();
                         }
                         getMvpView().hideLoading();

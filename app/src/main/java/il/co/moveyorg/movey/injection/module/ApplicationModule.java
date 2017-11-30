@@ -4,11 +4,13 @@ import android.app.Application;
 import android.content.Context;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
+import il.co.moveyorg.movey.data.firebase.FirebaseDbHelper;
 import il.co.moveyorg.movey.data.remote.RibotsService;
 import il.co.moveyorg.movey.injection.ApplicationContext;
 
