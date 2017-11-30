@@ -29,7 +29,7 @@ public class RxEventBus {
     }
 
     /**
-     * Observable that will emmit everything posted to the event bus.
+     * Observable that will emit everything posted to the event bus.
      */
     public Flowable<Object> observable() {
         return mBusSubject.toFlowable(mBackpressureStrategy);
