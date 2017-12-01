@@ -17,6 +17,8 @@ import android.widget.Toast;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.auth.login.LoginFragment;
@@ -29,10 +31,18 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
 
 
     //defining view objects
-    private EditText editTextEmail;
-    private EditText editTextPassword;
-    private Button buttonSignup;
-    private TextView textViewSignin;
+    @BindView(R.id.editTextEmail)
+    EditText editTextEmail;
+
+    @BindView(R.id.editTextPassword)
+    EditText editTextPassword;
+
+    @BindView(R.id.buttonSignup)
+    Button buttonSignup;
+
+    @BindView(R.id.textViewSignin)
+    TextView textViewSignin;
+
     private ProgressDialog progressDialog;
 
     @Inject
@@ -57,14 +67,7 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_register, container, false);
 
-        //initializing views
-        editTextEmail = (EditText) view.findViewById(R.id.editTextEmail);
-        editTextPassword = (EditText) view.findViewById(R.id.editTextPassword);
-        textViewSignin = (TextView) view.findViewById(R.id.textViewSignin);
-
-        buttonSignup = (Button) view.findViewById(R.id.buttonSignup);
-
-        //attaching listener to button
+        ButterKnife.bind(this,view);
         buttonSignup.setOnClickListener(this);
         textViewSignin.setOnClickListener(this);
 
@@ -76,7 +79,6 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
     public void onClick(View view) {
 
         if(view == buttonSignup){
-            //getting email and password from edit texts
             String email = editTextEmail.getText().toString().trim();
             String password  = editTextPassword.getText().toString().trim();
 
@@ -121,6 +123,5 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
     @Override
     public void showToast(String msg) {
         Toast.makeText(getContext(),msg,Toast.LENGTH_LONG).show();
-
     }
 }

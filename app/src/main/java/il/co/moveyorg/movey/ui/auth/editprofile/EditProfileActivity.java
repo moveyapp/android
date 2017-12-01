@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -73,7 +75,7 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
         doneBtn.setOnClickListener(this);
 
         currentUser = FirebaseAuth.getInstance().getCurrentUser();
-        if(currentUser == null){
+        if (currentUser == null) {
             finish();
             return;
         }
@@ -88,6 +90,7 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.activity_edit_user_details_btn_done: {
+                syncUserModel();
                 presenter.saveProfile();
                 break;
             }
@@ -123,7 +126,7 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
             case Define.ALBUM_REQUEST_CODE:
                 if (resultCode == RESULT_OK) {
                     ArrayList<Uri> path = imageData.getParcelableArrayListExtra(Define.INTENT_PATH);
-                    if(path != null) {
+                    if (path != null) {
                         presenter.setImageUriToUpload(path.get(0));
                         profileImageView.setImageURI(path.get(0));
                     }
@@ -133,13 +136,27 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
     }
 
 
+    void syncUserModel() {
+
+        presenter.syncUserModel(
+                userNameEditText.getText().toString(),
+                firstNameEditText.getText().toString(),
+                lastNameEditText.getText().toString(),
+                countryEditText.getText().toString()
+                );
+    }
+
+
     @Override
     public void showProfile(User user) {
-        if(user != null) {
+        if (user != null) {
+
             userNameEditText.setText(user.getUserName());
             firstNameEditText.setText(user.getFirstName());
             lastNameEditText.setText(user.getLastName());
             countryEditText.setText(user.getCountry());
+
+            //TODO: investigate bug (You cannot start a load for a destroyed activity)
             Glide.with(this).load(user.getProfileImageUrl()).into(profileImageView);
         }
     }

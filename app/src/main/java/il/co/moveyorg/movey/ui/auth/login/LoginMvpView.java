@@ -9,4 +9,8 @@ import il.co.moveyorg.movey.ui.base.MvpView;
 public interface LoginMvpView extends MvpView{
     void onLoginSuccessful();
     void onLoginFailed();
+    void showLoading();
+    void onAlreadyLoggedIn();
+    void hideLoading();
+    void showToast(String msg);
 }

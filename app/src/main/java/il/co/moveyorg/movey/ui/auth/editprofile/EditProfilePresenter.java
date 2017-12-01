@@ -50,6 +50,13 @@ public class EditProfilePresenter extends BasePresenter<EditProfileMvpView> impl
         }
     }
 
+    void syncUserModel(String username,String firstname, String lastname, String country){
+        currentUserModel.setUserName(username);
+        currentUserModel.setFirstName(firstname);
+        currentUserModel.setLastName(lastname);
+        currentUserModel.setCountry(country);
+    }
+
     @Override
     public void onDataChange(DataSnapshot dataSnapshot) {
         currentUserModel = dataSnapshot.getValue(User.class);
@@ -64,30 +71,37 @@ public class EditProfilePresenter extends BasePresenter<EditProfileMvpView> impl
 
     public void saveProfile() {
 
-        if (currentUser != null && imageUriToUpload != null) {
-            FirebaseStorageHelper.Users
-                    .uploadUserProfileImage(currentUser.getUid(), imageUriToUpload)
+        if (currentUser != null) {
 
-                    .subscribe(new Observer<UploadTask.TaskSnapshot>() {
-                        @Override
-                        public void onCompleted() {
-                            FirebaseDbHelper.Users.saveUser(currentUserModel);
-                            getMvpView().onSaveProfile();
-                        }
-
-                        @Override
-                        public void onError(Throwable e) {
-
-                        }
-
-                        @Override
-                        public void onNext(UploadTask.TaskSnapshot taskSnapshot) {
-                            Uri firebaseUploadedUrl = taskSnapshot.getDownloadUrl();
-                            if (firebaseUploadedUrl != null) {
-                                currentUserModel.setProfileImageUrl(firebaseUploadedUrl.toString());
+            if(imageUriToUpload != null) {
+                FirebaseStorageHelper.Users
+                        .uploadUserProfileImage(currentUser.getUid(), imageUriToUpload)
+                        .subscribe(new Observer<UploadTask.TaskSnapshot>() {
+                            @Override
+                            public void onCompleted() {
+                                FirebaseDbHelper.Users.saveUser(currentUserModel);
+                                getMvpView().onSaveProfile();
                             }
-                        }
-                    });
+
+                            @Override
+                            public void onError(Throwable e) {
+
+                            }
+
+                            @Override
+                            public void onNext(UploadTask.TaskSnapshot taskSnapshot) {
+                                Uri firebaseUploadedUrl = taskSnapshot.getDownloadUrl();
+                                if (firebaseUploadedUrl != null) {
+                                    currentUserModel.setProfileImageUrl(firebaseUploadedUrl.toString());
+                                }
+                                FirebaseDbHelper.Users.saveUser(currentUserModel);
+                                getMvpView().onSaveProfile();
+                            }
+                        });
+            } else {
+                FirebaseDbHelper.Users.saveUser(currentUserModel);
+                getMvpView().onSaveProfile();
+            }
         }
 
     }
