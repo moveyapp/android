@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -39,6 +40,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import de.hdodenhof.circleimageview.CircleImageView;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
@@ -59,7 +61,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     GoogleMap map;
 
     @BindView(R.id.fragment_profile_image)
-    ImageView userImage;
+    CircleImageView userImage;
 
     @BindView(R.id.fragment_profile_email_text)
     TextView userEmail;
@@ -151,6 +153,12 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                     userFirstName.setText(currentUser.getFirstName());
                     userLastName.setText(currentUser.getLastName());
                     userCountry.setText(currentUser.getCountry());
+
+                    if( getActivity() != null && !getActivity().isFinishing()) {
+                        //TODO: investigate bug (You cannot start a load for a destroyed activity)
+                        Glide.with(getActivity()).load(currentUser.getProfileImageUrl()).into(userImage);
+                    }
+
                 }
 
             }
@@ -227,12 +235,9 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         ReactiveLocationProvider locationProvider = new ReactiveLocationProvider(getActivity());
 
         Disposable subscription = locationProvider.getUpdatedLocation(request)
-                .subscribe(new Consumer<Location>() {
-                    @Override
-                    public void accept(Location location) throws Exception {
-                        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
-                        map.animateCamera(cameraUpdate);
-                    }
+                .subscribe(location -> {
+                    CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
+                    map.animateCamera(cameraUpdate);
                 });
 
     }

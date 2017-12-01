@@ -156,8 +156,10 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
             lastNameEditText.setText(user.getLastName());
             countryEditText.setText(user.getCountry());
 
-            //TODO: investigate bug (You cannot start a load for a destroyed activity)
-            Glide.with(this).load(user.getProfileImageUrl()).into(profileImageView);
+            if(!this.isFinishing()) {
+                //TODO: investigate bug (You cannot start a load for a destroyed activity)
+                Glide.with(this).load(user.getProfileImageUrl()).into(profileImageView);
+            }
         }
     }
 
