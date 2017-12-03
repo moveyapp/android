@@ -47,6 +47,7 @@
 
         <activity android:name=".ui.auth.AuthActivity" />
         <activity android:name=".ui.auth.editprofile.EditProfileActivity"></activity>
+        <activity android:name=".ui.movey.AboutActivity"></activity>
     </application>
 
 </manifest>
