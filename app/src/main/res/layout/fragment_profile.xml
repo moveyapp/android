@@ -62,12 +62,14 @@
                 android:id="@+id/fragment_profile_logout_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:theme="@style/PrimaryFlatButton"
                 android:text="Log out"/>
 
             <Button
                 android:id="@+id/fragment_profile_reset_password_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:theme="@style/PrimaryFlatButton"
                 android:text="Reset password"
                 />
 
@@ -75,6 +77,7 @@
                 android:id="@+id/fragment_profile_edit_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:theme="@style/PrimaryFlatButton"
                 android:text="Edit profile"
                 />
 
