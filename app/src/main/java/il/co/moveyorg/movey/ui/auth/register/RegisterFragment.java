@@ -20,6 +20,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.auth.login.LoginFragment;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
@@ -59,6 +60,8 @@ public class RegisterFragment extends BaseFragment implements RegisterMvpView, V
         presenter.attachView(this);
         presenter.init();
         progressDialog = new ProgressDialog(getContext());
+        ((AuthActivity) getActivity()).setActionBarTitle("Register");
+
     }
 
     @Override

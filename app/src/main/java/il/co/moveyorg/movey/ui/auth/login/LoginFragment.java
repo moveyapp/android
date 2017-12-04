@@ -20,6 +20,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.auth.register.RegisterFragment;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
 
@@ -55,7 +56,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login, container, false);
-
         ButterKnife.bind(this,view);
 
         progressDialog = new ProgressDialog(getContext());
@@ -74,6 +74,7 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
         presenter.attachView(this);
         presenter.init();
         progressDialog = new ProgressDialog(getContext());
+        ((AuthActivity) getActivity()).setActionBarTitle("Login");
     }
 
     @Override
