@@ -157,8 +157,11 @@ public class EditProfileActivity extends BaseActivity implements View.OnClickLis
             countryEditText.setText(user.getCountry());
 
             if(!this.isFinishing()) {
+
                 //TODO: investigate bug (You cannot start a load for a destroyed activity)
-                Glide.with(this).load(user.getProfileImageUrl()).into(profileImageView);
+                if(user.getProfileImageUrl() != null) {
+                    Glide.with(this).load(user.getProfileImageUrl()).into(profileImageView);
+                }
             }
         }
     }
