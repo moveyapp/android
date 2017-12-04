@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Movey</string>
-
+    <string name="app_desc">Movey is world first social network solely focused
+    on media content like movies and series and enable people to connect with common
+        favourite content and discover new and amazing media every single day.
+    </string>
     <string name="google_maps_key">AIzaSyBQlO0P-ur5YKX4SjbYryxJJajJVJLWl-4</string>
     <string name="action_about">About</string>
 

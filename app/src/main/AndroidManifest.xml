@@ -47,7 +47,11 @@
 
         <activity android:name=".ui.auth.AuthActivity" />
         <activity android:name=".ui.auth.editprofile.EditProfileActivity"></activity>
-        <activity android:name=".ui.movey.AboutActivity"></activity>
+        <activity android:name=".ui.movey.AboutActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.movey.MoveyActivity" />
+        </activity>
     </application>
 
 </manifest>
