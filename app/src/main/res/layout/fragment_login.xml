@@ -4,44 +4,65 @@
     android:layout_height="match_parent"
     tools:context="il.co.moveyorg.movey.ui.auth.login.LoginFragment">
 
-    <LinearLayout
-        android:layout_centerVertical="true"
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/editTextEmail"
+        <ImageView
+            android:id="@+id/activity_auth_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo__blue"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:hint="Enter email"
-            android:inputType="textEmailAddress" />
+            android:orientation="vertical"
+            android:layout_below="@id/activity_auth_logo">
 
-        <EditText
-            android:id="@+id/editTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:hint="Enter password"
-            android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter email"
+                android:inputType="textEmailAddress" />
 
-        <Button
-            android:id="@+id/buttonSignin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:text="Log in"
-            android:theme="@style/PrimaryButton" />
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter password"
+                android:inputType="textPassword" />
 
-        <TextView
-            android:id="@+id/textViewSignUp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:text="Don't have an account? Register"
-            android:textAlignment="center" />
+            <Button
+                android:id="@+id/buttonSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Log in"
+                android:theme="@style/PrimaryButton" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/textViewSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Don't have an account? Register"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
 
 </FrameLayout>

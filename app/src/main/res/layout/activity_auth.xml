@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/selector_background_activity_auth">
 
     <FrameLayout
         android:id="@+id/activity_auth_fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/selector_background_activity_auth">
+        android:layout_height="wrap_content"
+        >
 
     </FrameLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/auth_activity_skip_btn"
+        android:layout_below="@id/activity_auth_fragment_container"
+        android:text="Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/PrimaryFlatButton"/>
+
+</RelativeLayout>
