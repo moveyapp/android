@@ -7,12 +7,18 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 import il.co.moveyorg.movey.ui.movey.feed.FeedFragment;
@@ -25,22 +31,51 @@ public class MoveyActivity extends BaseActivity {
     private BottomNavigationView mBottomNav;
     private int mSelectedItem;
     private FirebaseAuth.AuthStateListener mAuthListener;
+    private MaterialSearchView searchView;
+
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movey);
-
-        mBottomNav = (BottomNavigationView) findViewById(R.id.movey_bottom_nav);
-        mBottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        ButterKnife.bind(this);
+        setSupportActionBar(toolbar);
+        searchView = (MaterialSearchView) findViewById(R.id.search_view);
+        searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                boolean fragmentSelected = selectFragment(item);
-                if (!fragmentSelected) {
-                    mBottomNav.setSelectedItemId(R.id.menu_feed);
-                }
-                return fragmentSelected;
+            public boolean onQueryTextSubmit(String query) {
+                //Do some magic
+                return false;
             }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                //Do some magic
+                return false;
+            }
+        });
+
+        searchView.setOnSearchViewListener(new MaterialSearchView.SearchViewListener() {
+            @Override
+            public void onSearchViewShown() {
+                //Do some magic
+            }
+
+            @Override
+            public void onSearchViewClosed() {
+                //Do some magic
+            }
+        });
+
+        mBottomNav = findViewById(R.id.movey_bottom_nav);
+        mBottomNav.setOnNavigationItemSelectedListener(item -> {
+            boolean fragmentSelected = selectFragment(item);
+            if (!fragmentSelected) {
+                mBottomNav.setSelectedItemId(R.id.menu_feed);
+            }
+            return fragmentSelected;
         });
 
         MenuItem selectedItem;
@@ -54,25 +89,25 @@ public class MoveyActivity extends BaseActivity {
         selectFragment(selectedItem);
         mBottomNav.setSelectedItemId(R.id.menu_feed);
 
-         mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    System.out.println("User logged in");
-                } else {
-                    System.out.println("User not logged in");
+         mAuthListener = firebaseAuth -> {
+             FirebaseUser user = firebaseAuth.getCurrentUser();
+             if (user != null) {
+                 System.out.println("User logged in");
+             } else {
+                 System.out.println("User not logged in");
 
-                    selectFragment(mBottomNav.getMenu().getItem(0));
-                    mBottomNav.setSelectedItemId(R.id.menu_feed);
-                }
-            }
-        };
+                 selectFragment(mBottomNav.getMenu().getItem(0));
+                 mBottomNav.setSelectedItemId(R.id.menu_feed);
+             }
+         };
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        MenuItem item = menu.findItem(R.id.action_search);
+        searchView.setMenuItem(item);
+
         return true;
     }
 
