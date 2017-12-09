@@ -22,6 +22,7 @@ import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 import il.co.moveyorg.movey.ui.movey.feed.FeedFragment;
+import il.co.moveyorg.movey.ui.movey.notif.NotificationsFragment;
 import il.co.moveyorg.movey.ui.movey.profile.ProfileFragment;
 
 public class MoveyActivity extends BaseActivity {
@@ -42,6 +43,7 @@ public class MoveyActivity extends BaseActivity {
         setContentView(R.layout.activity_movey);
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
+
         searchView = (MaterialSearchView) findViewById(R.id.search_view);
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
@@ -173,10 +175,9 @@ public class MoveyActivity extends BaseActivity {
 //                frag = new FeedFragment();
 //                break;
 //
-//            case R.id.menu_notifications:
-//                frag = new FeedFragment();
-//                break;
-
+            case R.id.menu_notifications:
+                frag = new NotificationsFragment();
+                break;
 
             case R.id.menu_profile: {
                 if (!validateUser()) {
