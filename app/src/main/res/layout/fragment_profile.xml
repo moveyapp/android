@@ -15,10 +15,10 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.google.android.gms.maps.MapView
-                android:id="@+id/fragment_profile_map_view"
-                android:layout_width="match_parent"
-                android:layout_height="150dp" />
+            <!--<com.google.android.gms.maps.MapView-->
+                <!--android:id="@+id/fragment_profile_map_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="150dp" />-->
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/fragment_profile_image"

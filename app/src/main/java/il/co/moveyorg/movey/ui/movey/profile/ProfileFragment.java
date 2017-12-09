@@ -52,13 +52,13 @@ import pl.charmas.android.reactivelocation2.ReactiveLocationProvider;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ProfileFragment extends BaseFragment implements View.OnClickListener, PermissionListener, OnMapReadyCallback {
+public class ProfileFragment extends BaseFragment implements View.OnClickListener {
 
     private FirebaseAuth firebaseAuth;
 
-    @BindView(R.id.fragment_profile_map_view)
-    MapView mapView;
-    GoogleMap map;
+//    @BindView(R.id.fragment_profile_map_view)
+//    MapView mapView;
+//    GoogleMap map;
 
     @BindView(R.id.fragment_profile_image)
     CircleImageView userImage;
@@ -91,25 +91,13 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
 
     private DatabaseReference userDbRef;
     private User currentUser;
-    private boolean locationPermissionGranted = false;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        MapsInitializer.initialize(getActivity());
-
-        if (mapView != null) {
-            mapView.onCreate(savedInstanceState);
-        }
-        initializeMap();
     }
 
-    private void initializeMap() {
-        if ( locationPermissionGranted && mapView != null) {
-            mapView.getMapAsync(this);
-            //setup markers etc...
-        }
-    }
+
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -169,22 +157,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
             }
         });
 
-
-        mapView.onCreate(savedInstanceState);
-
-        initializeMap();
-
-        // Gets to GoogleMap from the MapView and does initialization stuff
-        askForLocationPermission();
         return view;
-    }
-
-    public void askForLocationPermission() {
-
-        Dexter.withActivity(getActivity())
-                .withPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
-                .withListener(this)
-                .check();
     }
 
     @Override
@@ -202,74 +175,29 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         }
     }
 
-    @Override
-    public void onPermissionGranted(PermissionGrantedResponse response) {
-        locationPermissionGranted = true;
-        initializeMap();
-        Toast.makeText(getActivity(), "Location permission granted!", Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public void onPermissionDenied(PermissionDeniedResponse response) {
-
-    }
-
-    @Override
-    public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {
-
-    }
-
-    @SuppressLint("MissingPermission")
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        if(!locationPermissionGranted) return;
-        map = googleMap;
-        map.getUiSettings().setMyLocationButtonEnabled(false);
-        map.setMyLocationEnabled(true);
-
-        LocationRequest request = LocationRequest.create() //standard GMS LocationRequest
-                .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
-                .setNumUpdates(5)
-                .setInterval(100);
-
-        ReactiveLocationProvider locationProvider = new ReactiveLocationProvider(getActivity());
-
-        Disposable subscription = locationProvider.getUpdatedLocation(request)
-                .subscribe(location -> {
-                    CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10);
-                    map.animateCamera(cameraUpdate);
-                });
-
-    }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        mapView.onSaveInstanceState(outState);
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        mapView.onResume();
-        initializeMap();
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        mapView.onPause();
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mapView.onDestroy();
     }
 
     @Override
     public void onLowMemory() {
         super.onLowMemory();
-        mapView.onLowMemory();
     }
 }
