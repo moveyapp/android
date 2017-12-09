@@ -56,10 +56,6 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
 
     private FirebaseAuth firebaseAuth;
 
-//    @BindView(R.id.fragment_profile_map_view)
-//    MapView mapView;
-//    GoogleMap map;
-
     @BindView(R.id.fragment_profile_image)
     CircleImageView userImage;
 
