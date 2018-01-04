@@ -114,6 +114,7 @@ dependencies {
     compile "com.google.firebase:firebase-auth:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-database:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-storage:$PLAY_SERVICES_VERSION"
+    compile "com.google.firebase:firebase-core:$PLAY_SERVICES_VERSION"
     compile 'com.kelvinapps:rxfirebase:0.0.15'
     compile 'com.android.support:multidex:1.0.2'
 

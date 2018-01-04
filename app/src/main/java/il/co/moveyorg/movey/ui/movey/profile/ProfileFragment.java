@@ -1,29 +1,17 @@
 package il.co.moveyorg.movey.ui.movey.profile;
 
 
-import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.maps.CameraUpdate;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.MapsInitializer;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.model.LatLng;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -31,12 +19,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.karumi.dexter.Dexter;
-import com.karumi.dexter.PermissionToken;
-import com.karumi.dexter.listener.PermissionDeniedResponse;
-import com.karumi.dexter.listener.PermissionGrantedResponse;
-import com.karumi.dexter.listener.PermissionRequest;
-import com.karumi.dexter.listener.single.PermissionListener;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -45,9 +27,6 @@ import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
-import pl.charmas.android.reactivelocation2.ReactiveLocationProvider;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,6 +34,7 @@ import pl.charmas.android.reactivelocation2.ReactiveLocationProvider;
 public class ProfileFragment extends BaseFragment implements View.OnClickListener {
 
     private FirebaseAuth firebaseAuth;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @BindView(R.id.fragment_profile_image)
     CircleImageView userImage;
@@ -104,6 +84,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         super.onCreate(savedInstanceState);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(getActivity());
     }
 
     @Override
@@ -120,7 +101,7 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
         logoutBtn.setOnClickListener(this);
         editBtn.setOnClickListener(this);
 
-
+        // TODO: move ugly logic to presenter
         userDbRef =
                 FirebaseDatabase.getInstance().getReference().child("social").child("users")
                         .child(firebaseAuth.getCurrentUser().getUid());
@@ -164,6 +145,16 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                 break;
             }
             case R.id.fragment_profile_edit_button: {
+
+                Bundle bundle = new Bundle();
+                bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "button-edit-profile");
+                bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "edit profile button");
+                bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "button");
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+
+
+
+
                 startActivity(new Intent(getActivity(), EditProfileActivity.class));
                 break;
             }
