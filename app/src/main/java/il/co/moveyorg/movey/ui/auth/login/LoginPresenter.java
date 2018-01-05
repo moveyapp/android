@@ -35,7 +35,7 @@ import il.co.moveyorg.movey.ui.base.BasePresenter;
  * Created by eladk on 11/30/17.
  */
 
-public class LoginPresenter extends BasePresenter<LoginMvpView> implements GoogleApiClient.OnConnectionFailedListener {
+public class LoginPresenter extends BasePresenter<LoginMvpView> {
 
   @Inject
   FirebaseAuth firebaseAuth;
@@ -58,31 +58,8 @@ public class LoginPresenter extends BasePresenter<LoginMvpView> implements Googl
     }
   }
 
-  public void initGoogleSignIn(LoginFragment loginFragment) {
-    GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-        .requestIdToken(loginFragment.getString(R.string.default_web_client_id))
-        .requestEmail()
-        .build();
-
-    BaseActivity parentActivity = (BaseActivity) loginFragment.getActivity();
-
-    if (parentActivity != null) {
-      mGoogleApiClient = new GoogleApiClient.Builder(loginFragment.getActivity())
-          .enableAutoManage(loginFragment.getActivity(), this)
-          .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
-          .build();
-    }
-
-  }
-
-  public void loginWithGoogle(LoginFragment loginFragment) {
-    Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
-    loginFragment.startActivityForResult(signInIntent, RC_SIGN_IN_GOOGLE);
-  }
-
 
   public void login(FragmentActivity context, String email, String password) {
-    //checking if email and passwords are empty
     if (TextUtils.isEmpty(email)) {
       getMvpView().showToast("Please enter email");
       return;
@@ -94,7 +71,7 @@ public class LoginPresenter extends BasePresenter<LoginMvpView> implements Googl
     }
 
     getMvpView().showLoading();
-    //logging in the user
+
     firebaseAuth.signInWithEmailAndPassword(email, password)
         .addOnCompleteListener(context, task -> {
           getMvpView().hideLoading();
@@ -105,28 +82,5 @@ public class LoginPresenter extends BasePresenter<LoginMvpView> implements Googl
 
   }
 
-  @Override
-  public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-    getMvpView().onLoginFailed();
-  }
 
-  public void handleGoogleLoginResult(Intent data) {
-
-    GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-
-    Log.d(TAG, "handleSignInResult:" + result.isSuccess());
-    if (result.isSuccess()) {
-      GoogleSignInAccount googleSignInAccount = result.getSignInAccount();
-      AuthCredential credential = GoogleAuthProvider.getCredential(googleSignInAccount.getIdToken(), null);
-      firebaseAuth.signInWithCredential(credential).addOnCompleteListener(task -> {
-        if (task.isSuccessful()) {
-          getMvpView().onLoginSuccessful();
-        } else {
-          getMvpView().onLoginFailed();
-        }
-      });
-    } else {
-      getMvpView().onLoginFailed();
-    }
-  }
 }

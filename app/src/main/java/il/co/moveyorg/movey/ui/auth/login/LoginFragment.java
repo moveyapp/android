@@ -40,9 +40,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
   @BindView(R.id.buttonSignin)
   Button buttonSignIn;
 
-  @BindView(R.id.fragment_login_btn_google_signin)
-  SignInButton buttonGoogleSignIn;
-
   @BindView(R.id.editTextEmail)
   EditText editTextEmail;
 
@@ -71,7 +68,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
     progressDialog = new ProgressDialog(getContext());
 
     buttonSignIn.setOnClickListener(this);
-    buttonGoogleSignIn.setOnClickListener(this);
     textViewSignup.setOnClickListener(this);
 
     return view;
@@ -84,18 +80,9 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
     fragmentComponent().inject(this);
     presenter.attachView(this);
     presenter.init();
-    presenter.initGoogleSignIn(this);
     progressDialog = new ProgressDialog(getContext());
 
     ((AuthActivity) getActivity()).setActionBarTitle("Login");
-  }
-
-  @Override
-  public void onActivityResult(int requestCode, int resultCode, Intent data) {
-    super.onActivityResult(requestCode, resultCode, data);
-    if(requestCode == RC_SIGN_IN_GOOGLE){
-      presenter.handleGoogleLoginResult(data);
-    }
   }
 
   @Override
@@ -109,11 +96,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
         presenter.login(getActivity(), email, password);
         break;
       }
-      case R.id.fragment_login_btn_google_signin: {
-        presenter.loginWithGoogle(this);
-        break;
-      }
-
       case R.id.textViewSignUp: {
         FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.activity_auth_fragment_container, new RegisterFragment());
