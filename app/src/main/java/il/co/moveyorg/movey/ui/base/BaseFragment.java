@@ -10,10 +10,10 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import timber.log.Timber;
 import il.co.moveyorg.movey.MoveyApplication;
-import il.co.moveyorg.movey.injection.component.ConfigPersistentComponent;
-import il.co.moveyorg.movey.injection.component.DaggerConfigPersistentComponent;
-import il.co.moveyorg.movey.injection.component.FragmentComponent;
-import il.co.moveyorg.movey.injection.module.FragmentModule;
+import il.co.moveyorg.movey.di.component.ConfigPersistentComponent;
+import il.co.moveyorg.movey.di.component.DaggerConfigPersistentComponent;
+import il.co.moveyorg.movey.di.component.FragmentComponent;
+import il.co.moveyorg.movey.di.module.FragmentModule;
 
 /**
  * Created by eladk on 11/27/17.

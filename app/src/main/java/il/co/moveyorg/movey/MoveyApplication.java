@@ -7,9 +7,9 @@ import com.crashlytics.android.Crashlytics;
 
 import io.fabric.sdk.android.Fabric;
 import timber.log.Timber;
-import il.co.moveyorg.movey.injection.component.ApplicationComponent;
-import il.co.moveyorg.movey.injection.component.DaggerApplicationComponent;
-import il.co.moveyorg.movey.injection.module.ApplicationModule;
+import il.co.moveyorg.movey.di.component.ApplicationComponent;
+import il.co.moveyorg.movey.di.component.DaggerApplicationComponent;
+import il.co.moveyorg.movey.di.module.ApplicationModule;
 
 public class MoveyApplication extends Application  {
 

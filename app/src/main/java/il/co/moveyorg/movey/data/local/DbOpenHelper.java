@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-import il.co.moveyorg.movey.injection.ApplicationContext;
+import il.co.moveyorg.movey.di.ApplicationContext;
 
 @Singleton
 public class DbOpenHelper extends SQLiteOpenHelper {

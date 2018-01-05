@@ -9,7 +9,7 @@ import dagger.Module;
 import dagger.Provides;
 import il.co.moveyorg.movey.data.DataManager;
 import il.co.moveyorg.movey.data.remote.RibotsService;
-import il.co.moveyorg.movey.injection.ApplicationContext;
+import il.co.moveyorg.movey.di.ApplicationContext;
 
 import static org.mockito.Mockito.mock;
 

@@ -3,7 +3,7 @@ package il.co.moveyorg.movey.test.common.injection.component;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import il.co.moveyorg.movey.injection.component.ApplicationComponent;
+import il.co.moveyorg.movey.di.component.ApplicationComponent;
 import il.co.moveyorg.movey.test.common.injection.module.ApplicationTestModule;
 
 @Singleton

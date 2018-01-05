@@ -18,7 +18,7 @@ import io.reactivex.Observable;
 import il.co.moveyorg.movey.data.model.Ribot;
 import il.co.moveyorg.movey.test.common.TestComponentRule;
 import il.co.moveyorg.movey.test.common.TestDataFactory;
-import il.co.moveyorg.movey.ui.main.MainActivity;
+import il.co.moveyorg.movey.ui.ribot.MainActivity;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;

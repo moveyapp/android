@@ -7,22 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import timber.log.Timber;
 import il.co.moveyorg.movey.MoveyApplication;
-import il.co.moveyorg.movey.injection.component.ActivityComponent;
-import il.co.moveyorg.movey.injection.component.ConfigPersistentComponent;
-import il.co.moveyorg.movey.injection.component.DaggerConfigPersistentComponent;
-import il.co.moveyorg.movey.injection.module.ActivityModule;
+import il.co.moveyorg.movey.di.component.ActivityComponent;
+import il.co.moveyorg.movey.di.component.ConfigPersistentComponent;
+import il.co.moveyorg.movey.di.component.DaggerConfigPersistentComponent;
+import il.co.moveyorg.movey.di.module.ActivityModule;
 
 /**
  * Abstract activity that every other Activity in this application must implement. It handles

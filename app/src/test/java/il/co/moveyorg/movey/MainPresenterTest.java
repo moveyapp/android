@@ -16,8 +16,8 @@ import io.reactivex.Observable;
 import il.co.moveyorg.movey.data.DataManager;
 import il.co.moveyorg.movey.data.model.Ribot;
 import il.co.moveyorg.movey.test.common.TestDataFactory;
-import il.co.moveyorg.movey.ui.main.MainMvpView;
-import il.co.moveyorg.movey.ui.main.MainPresenter;
+import il.co.moveyorg.movey.ui.ribot.MainMvpView;
+import il.co.moveyorg.movey.ui.ribot.MainPresenter;
 import il.co.moveyorg.movey.util.RxSchedulersOverrideRule;
 
 import static org.mockito.Mockito.never;
