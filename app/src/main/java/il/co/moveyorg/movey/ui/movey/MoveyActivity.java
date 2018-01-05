@@ -2,7 +2,6 @@ package il.co.moveyorg.movey.ui.movey;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -15,13 +14,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
-import javax.inject.Inject;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.ui.base.BaseActivity;
 import il.co.moveyorg.movey.ui.movey.feed.FeedFragment;
+import il.co.moveyorg.movey.ui.movey.media.MediaFragment;
 import il.co.moveyorg.movey.ui.movey.notif.NotificationsFragment;
 import il.co.moveyorg.movey.ui.movey.profile.ProfileFragment;
 
@@ -171,12 +169,13 @@ public class MoveyActivity extends BaseActivity {
                 frag = new FeedFragment();
                 break;
             }
-//            case R.id.menu_media:
-//                frag = new FeedFragment();
-//                break;
-//
+
             case R.id.menu_notifications:
                 frag = new NotificationsFragment();
+                break;
+
+            case R.id.menu_media:
+                frag = new MediaFragment();
                 break;
 
             case R.id.menu_profile: {
