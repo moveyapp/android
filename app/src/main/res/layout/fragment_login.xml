@@ -50,6 +50,11 @@
                 android:text="Log in"
                 android:theme="@style/PrimaryButton" />
 
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/fragment_login_btn_google_signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
             <TextView
                 android:id="@+id/textViewSignUp"
                 android:layout_width="match_parent"
@@ -63,15 +68,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="" />
-            <com.google.android.gms.common.SignInButton
-                android:id="@+id/sign_in_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:text="Sign Out"
-                android:id="@+id/sign_out_button"/>
+
+
         </LinearLayout>
 
 

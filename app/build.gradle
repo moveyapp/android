@@ -112,6 +112,7 @@ dependencies {
     compile "com.google.android.gms:play-services-gcm:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-core:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-auth:$PLAY_SERVICES_VERSION"
+    compile "com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-database:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-storage:$PLAY_SERVICES_VERSION"
     compile "com.google.firebase:firebase-core:$PLAY_SERVICES_VERSION"
