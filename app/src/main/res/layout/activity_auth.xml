@@ -13,9 +13,17 @@
 
     </FrameLayout>
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/auth_activity_btn_google_sign_in"
+        android:layout_below="@id/activity_auth_fragment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
     <Button
         android:id="@+id/auth_activity_skip_btn"
-        android:layout_below="@id/activity_auth_fragment_container"
+        android:layout_below="@id/auth_activity_btn_google_sign_in"
         android:text="Skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

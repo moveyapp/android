@@ -3,6 +3,7 @@ package il.co.moveyorg.movey.injection.component;
 import dagger.Subcomponent;
 import il.co.moveyorg.movey.injection.PerActivity;
 import il.co.moveyorg.movey.injection.module.ActivityModule;
+import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.main.MainActivity;
 
@@ -13,7 +14,9 @@ import il.co.moveyorg.movey.ui.main.MainActivity;
 @Subcomponent(modules = ActivityModule.class)
 public interface ActivityComponent {
 
-    void inject(MainActivity mainActivity);
+  void inject(MainActivity mainActivity);
 
-    void inject(EditProfileActivity editProfileActivity);
+  void inject(EditProfileActivity editProfileActivity);
+
+  void inject(AuthActivity authActivity);
 }
