@@ -57,9 +57,6 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
     @BindView(R.id.fragment_profile_logout_button)
     Button logoutBtn;
 
-    @BindView(R.id.fragment_profile_reset_password_button)
-    Button resetPassBtn;
-
     @BindView(R.id.fragment_profile_edit_button)
     Button editBtn;
 
