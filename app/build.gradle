@@ -137,6 +137,8 @@ dependencies {
     compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
     compile 'com.miguelcatalan:materialsearchview:1.4.0'
     compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.flipboard:bottomsheet-core:1.5.3'
+
 
 
     // HELPER ACTIVITIES

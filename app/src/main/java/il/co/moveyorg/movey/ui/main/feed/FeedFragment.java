@@ -3,12 +3,15 @@ package il.co.moveyorg.movey.ui.main.feed;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.flipboard.bottomsheet.BottomSheetLayout;
 
 import java.util.List;
 
@@ -28,7 +31,7 @@ import il.co.moveyorg.movey.util.DialogFactory;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FeedFragment extends BaseFragment implements FeedMvpView {
+public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnClickListener {
 
     @Inject
     FeedPresenter feedPresenter;
@@ -39,6 +42,12 @@ public class FeedFragment extends BaseFragment implements FeedMvpView {
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
 
+    @BindView(R.id.fragment_feed_bottomsheet)
+    BottomSheetLayout createPostBottomSheet;
+
+    @BindView(R.id.fragment_feed_fab_create_post)
+    FloatingActionButton createPostBtn;
+
     public FeedFragment() {
         // Required empty public constructor
     }
@@ -47,6 +56,7 @@ public class FeedFragment extends BaseFragment implements FeedMvpView {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         fragmentComponent().inject(this);
+
     }
 
 
@@ -63,6 +73,9 @@ public class FeedFragment extends BaseFragment implements FeedMvpView {
 
         feedPresenter.attachView(this);
         feedPresenter.loadFeed();
+
+        createPostBtn.setOnClickListener(this);
+
 
         return view;
     }
@@ -81,4 +94,13 @@ public class FeedFragment extends BaseFragment implements FeedMvpView {
     }
 
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.fragment_feed_fab_create_post: {
+                createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
+                break;
+            }
+        }
+    }
 }
