@@ -24,21 +24,35 @@
 
        <TextView
            android:id="@+id/post_item_content"
+           android:layout_below="@id/post_item_username"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            />
 
-        <Button
-            android:id="@+id/post_item_like_btn"
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/post_item_bottom_bar"
+            android:layout_below="@id/post_item_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/post_item_comment_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+            <Button
+                android:id="@+id/post_item_like_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Like"
+                />
+
+            <Button
+                android:id="@+id/post_item_comment_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="comment"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
 
     </RelativeLayout>
 

@@ -70,5 +70,15 @@ public class FeedFragment extends BaseFragment implements FeedMvpView {
     @Override
     public void showPosts(List<Post> posts) {
         feedAdapter.setPosts(posts);
+        feedAdapter.notifyDataSetChanged();
+
     }
+
+    @Override
+    public void addPost(Post post) {
+        feedAdapter.addPost(post);
+        feedAdapter.notifyDataSetChanged();
+    }
+
+
 }

@@ -54,6 +54,10 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
     return posts.size();
   }
 
+  public void addPost(Post post) {
+    posts.add(post);
+  }
+
   class PostViewHolder extends RecyclerView.ViewHolder {
 
     @BindView(R.id.post_item_username)

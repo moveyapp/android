@@ -11,4 +11,5 @@ import il.co.moveyorg.movey.ui.base.MvpView;
 
 public interface FeedMvpView extends MvpView {
   void showPosts(List<Post> posts);
+  void addPost(Post post);
 }
