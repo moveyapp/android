@@ -15,9 +15,7 @@ import il.co.moveyorg.movey.data.firebase.FirebaseDbHelper;
 import il.co.moveyorg.movey.data.firebase.FirebaseStorageHelper;
 import il.co.moveyorg.movey.data.model.User;
 import il.co.moveyorg.movey.ui.base.BasePresenter;
-import rx.Observable;
 import rx.Observer;
-import rx.schedulers.Schedulers;
 
 
 /**
@@ -51,10 +49,12 @@ public class EditProfilePresenter extends BasePresenter<EditProfileMvpView> impl
     }
 
     void syncUserModel(String username,String firstname, String lastname, String country){
-        currentUserModel.setUserName(username);
-        currentUserModel.setFirstName(firstname);
-        currentUserModel.setLastName(lastname);
-        currentUserModel.setCountry(country);
+        if(currentUserModel != null){
+            currentUserModel.setUserName(username);
+            currentUserModel.setFirstName(firstname);
+            currentUserModel.setLastName(lastname);
+            currentUserModel.setCountry(country);
+        }
     }
 
     @Override
