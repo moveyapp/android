@@ -38,9 +38,9 @@ import il.co.moveyorg.movey.ui.base.BasePresenter;
 public class LoginPresenter extends BasePresenter<LoginMvpView> {
 
   @Inject
-  FirebaseAuth firebaseAuth;
+  public FirebaseAuth firebaseAuth;
 
-  FirebaseUser currentUser;
+  public FirebaseUser currentUser;
 
   private static final String TAG = "SignInActivity";
   private static final int RC_SIGN_IN_GOOGLE = 9001;
