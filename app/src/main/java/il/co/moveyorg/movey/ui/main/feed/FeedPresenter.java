@@ -11,8 +11,6 @@ import il.co.moveyorg.movey.util.RxEventBus;
 
 public class FeedPresenter extends BasePresenter<FeedMvpView> {
 
-    @Inject
-    RxEventBus eventBus;
 
     @Inject
     FeedPresenter(){
@@ -20,4 +18,7 @@ public class FeedPresenter extends BasePresenter<FeedMvpView> {
     }
 
 
+  public void loadFeed() {
+
+  }
 }

@@ -14,6 +14,7 @@ public class Post {
   private List<String> tags = null;
   private String updatedAt;
   private String userId;
+  private String userName;
 
   public String getCreatedAt() {
     return createdAt;
@@ -61,5 +62,13 @@ public class Post {
 
   public void setContent(String content) {
     this.content = content;
+  }
+
+  public String getUserName() {
+    return userName;
+  }
+
+  public void setUserName(String userName) {
+    this.userName = userName;
   }
 }

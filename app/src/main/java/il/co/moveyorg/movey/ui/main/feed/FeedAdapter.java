@@ -1,8 +1,10 @@
 package il.co.moveyorg.movey.ui.main.feed;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ import il.co.moveyorg.movey.data.model.Post;
  * Created by eladk on 1/13/18.
  */
 
-public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder>  {
+public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder> {
 
   private List<Post> posts;
 
@@ -28,30 +30,44 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
     posts = new ArrayList<>();
   }
 
+  public void setPosts(List<Post> posts) {
+    this.posts = posts;
+  }
+
+
   @Override
   public FeedAdapter.PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-    return null;
+    View itemView = LayoutInflater.from(parent.getContext())
+        .inflate(R.layout.movey_post_item, parent, false);
+    return new FeedAdapter.PostViewHolder(itemView);
   }
 
   @Override
   public void onBindViewHolder(FeedAdapter.PostViewHolder holder, int position) {
-
+    Post post = posts.get(position);
+    holder.content.setText(post.getContent());
+    holder.username.setText(post.getUserName());
   }
 
   @Override
   public int getItemCount() {
-    return 0;
+    return posts.size();
   }
 
   class PostViewHolder extends RecyclerView.ViewHolder {
 
-    @BindView(R.id.view_hex_color)
-    View hexColorView;
-    @BindView(R.id.text_name)
-    TextView nameTextView;
-    @BindView(R.id.text_email) TextView emailTextView;
+    @BindView(R.id.post_item_username)
+    TextView username;
+    @BindView(R.id.post_item_content)
+    TextView content;
 
-    public PostViewHolder(View itemView) {
+    @BindView(R.id.post_item_like_btn)
+    Button likeBtn;
+
+    @BindView(R.id.post_item_comment_btn)
+    Button commentBtn;
+
+    PostViewHolder(View itemView) {
       super(itemView);
       ButterKnife.bind(this, itemView);
     }

@@ -17,6 +17,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
+import il.co.moveyorg.movey.data.model.Post;
 import il.co.moveyorg.movey.data.model.Ribot;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
 import il.co.moveyorg.movey.ui.ribot.MainMvpView;
@@ -27,13 +28,13 @@ import il.co.moveyorg.movey.util.DialogFactory;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FeedFragment extends BaseFragment implements MainMvpView {
+public class FeedFragment extends BaseFragment implements FeedMvpView {
 
     @Inject
-    MainPresenter mainPresenter;
+    FeedPresenter feedPresenter;
 
     @Inject
-    RibotsAdapter mRibotsAdapter;
+    FeedAdapter feedAdapter;
 
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
@@ -57,33 +58,17 @@ public class FeedFragment extends BaseFragment implements MainMvpView {
 
         ButterKnife.bind(this,view);
 
-        mRecyclerView.setAdapter(mRibotsAdapter);
+        mRecyclerView.setAdapter(feedAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        mainPresenter.attachView(this);
-        mainPresenter.loadRibots();
+        feedPresenter.attachView(this);
+        feedPresenter.loadFeed();
 
         return view;
     }
 
-    /***** MVP View methods implementation *****/
     @Override
-    public void showRibots(List<Ribot> ribots) {
-        mRibotsAdapter.setRibots(ribots);
-        mRibotsAdapter.notifyDataSetChanged();
+    public void showPosts(List<Post> posts) {
+        feedAdapter.setPosts(posts);
     }
-
-    @Override
-    public void showError() {
-        DialogFactory.createGenericErrorDialog(getContext(), getString(R.string.error_loading_ribots))
-                .show();
-    }
-
-    @Override
-    public void showRibotsEmpty() {
-//        mRibotsAdapter.setRibots(Collections.<Ribot>emptyList());
-//        mRibotsAdapter.notifyDataSetChanged();
-//        Toast.makeText(getContext(), R.string.empty_ribots, Toast.LENGTH_LONG).show();
-    }
-
 }
