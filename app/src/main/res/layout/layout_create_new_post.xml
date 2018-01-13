@@ -7,7 +7,7 @@
 
     <EditText
         android:hint="Write new post..."
-        android:id="@+id/edtInput"
+        android:id="@+id/create_post_layout_edit_post_textview"
         android:inputType="textCapSentences|textMultiLine"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -16,6 +16,7 @@
 
 
     <Button
+        android:id="@+id/create_post_submit_btn"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="Post" />

@@ -10,6 +10,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
 
@@ -21,12 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.Post;
-import il.co.moveyorg.movey.data.model.Ribot;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
-import il.co.moveyorg.movey.ui.ribot.MainMvpView;
-import il.co.moveyorg.movey.ui.ribot.MainPresenter;
-import il.co.moveyorg.movey.ui.ribot.RibotsAdapter;
-import il.co.moveyorg.movey.util.DialogFactory;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -46,7 +44,10 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
     BottomSheetLayout createPostBottomSheet;
 
     @BindView(R.id.fragment_feed_fab_create_post)
-    FloatingActionButton createPostBtn;
+    FloatingActionButton openCreatePostLayoutBtn;
+    private Button createPostBtn;
+    private EditText editPostContent;
+
 
     public FeedFragment() {
         // Required empty public constructor
@@ -74,8 +75,7 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
         feedPresenter.attachView(this);
         feedPresenter.loadFeed();
 
-        createPostBtn.setOnClickListener(this);
-
+        openCreatePostLayoutBtn.setOnClickListener(this);
 
         return view;
     }
@@ -98,9 +98,35 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.fragment_feed_fab_create_post: {
-                createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
+                openCreatePost();
                 break;
             }
+            case R.id.create_post_submit_btn: {
+                Toast.makeText(getActivity(), "Post clicked!", Toast.LENGTH_SHORT).show();
+                if (editPostContent != null) {
+                    feedPresenter.createNewPost(editPostContent.getText().toString());
+                }
+                createPostBottomSheet.dismissSheet();
+                break;
+            }
+
         }
+    }
+
+    private void openCreatePost() {
+        createPostBottomSheet.setPeekSheetTranslation(1200);
+
+        createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
+
+        createPostBtn =
+            createPostBottomSheet.findViewById(R.id.create_post_submit_btn);
+
+        editPostContent =
+            createPostBottomSheet.findViewById(R.id.create_post_layout_edit_post_textview);
+
+
+        createPostBtn.setOnClickListener(this);
+
+
     }
 }
