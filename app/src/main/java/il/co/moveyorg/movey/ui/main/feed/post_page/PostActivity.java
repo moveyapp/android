@@ -89,6 +89,7 @@ public class PostActivity extends BaseActivity implements CommentsAdapter.OnComm
   @Override
   public void addComment(Comment comment) {
     commentsAdapter.addComment(comment);
+    commentsAdapter.notifyDataSetChanged();
   }
 
   @Override

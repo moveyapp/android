@@ -43,8 +43,10 @@ public class PostPresenter extends BasePresenter<PostMvpView> {
       @Override
       public void onChildAdded(DataSnapshot dataSnapshot, String s) {
         Comment comment = dataSnapshot.getValue(Comment.class);
-        if (post.getId() == comment.getPostId())
+        String postId = post.getId();
+        if (postId != null && postId.equals(comment.getPostId())){
           getMvpView().addComment(comment);
+        }
       }
 
       @Override

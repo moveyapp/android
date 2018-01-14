@@ -63,7 +63,9 @@ public class FirebaseDbHelper {
 
         public static void savePost(Post post) {
             if (post != null){
-                getRef().push().setValue(post);
+                DatabaseReference ref = getRef().push();
+                post.setId(ref.getKey());
+                ref.setValue(post);
             }
         }
     }

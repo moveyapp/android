@@ -65,15 +65,16 @@ public class CommentsAdapter extends RecyclerView.Adapter<CommentsAdapter.Commen
 
   class CommentViewHolder extends RecyclerView.ViewHolder {
 
-    @BindView(R.id.post_item_username)
+    @BindView(R.id.comment_item_username_textview)
     TextView username;
-    @BindView(R.id.post_item_content)
+
+    @BindView(R.id.comment_item_content_textview)
     TextView content;
 
-    @BindView(R.id.post_item_like_btn)
+    @BindView(R.id.comment_item_like_btn)
     Button likeBtn;
 
-    @BindView(R.id.post_item_comment_btn)
+    @BindView(R.id.comment_item_reply_btn)
     Button replyBtn;
 
     CommentViewHolder(View itemView) {
