@@ -74,5 +74,6 @@ public class FeedPresenter extends BasePresenter<FeedMvpView> {
     newPost.setUserName(user.getDisplayName());
     newPost.setUserId(user.getUid());
     FirebaseDbHelper.Posts.savePost(newPost);
+    getMvpView().dismissCreatePost();
   }
 }

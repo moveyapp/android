@@ -93,6 +93,11 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
         feedAdapter.notifyDataSetChanged();
     }
 
+    @Override
+    public void dismissCreatePost() {
+        createPostBottomSheet.dismissSheet();
+    }
+
 
     @Override
     public void onClick(View view) {
@@ -102,11 +107,10 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
                 break;
             }
             case R.id.create_post_submit_btn: {
-                Toast.makeText(getActivity(), "Post clicked!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Post clicked!", Toast.LENGTH_SHORT).show();
                 if (editPostContent != null) {
                     feedPresenter.createNewPost(editPostContent.getText().toString());
                 }
-                createPostBottomSheet.dismissSheet();
                 break;
             }
 
@@ -114,7 +118,7 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
     }
 
     private void openCreatePost() {
-        createPostBottomSheet.setPeekSheetTranslation(1200);
+        createPostBottomSheet.setPeekSheetTranslation(600);
 
         createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
 
@@ -124,9 +128,6 @@ public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnCl
         editPostContent =
             createPostBottomSheet.findViewById(R.id.create_post_layout_edit_post_textview);
 
-
         createPostBtn.setOnClickListener(this);
-
-
     }
 }

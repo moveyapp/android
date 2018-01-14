@@ -5,20 +5,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/white">
 
-    <EditText
-        android:hint="Write new post..."
-        android:id="@+id/create_post_layout_edit_post_textview"
-        android:inputType="textCapSentences|textMultiLine"
-        android:layout_height="wrap_content"
+    <android.support.v7.widget.CardView
+        android:layout_gravity="bottom"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
-        android:maxLength="2000"
-        android:maxLines="4" />
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/create_post_layout_edit_post_textview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Write new post..."
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="4"
+            />
+
+    </android.support.v7.widget.CardView>
+
 
 
     <Button
         android:id="@+id/create_post_submit_btn"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:theme="@style/PrimaryButton"
         android:text="Post" />
 
 
