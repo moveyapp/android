@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId 'il.co.moveyorg.movey'
-        minSdkVersion 16
+        minSdkVersion 18
         targetSdkVersion 27
         multiDexEnabled true
         testInstrumentationRunner "${applicationId}.runner.RxAndroidJUnitRunner"
@@ -208,6 +208,8 @@ dependencies {
     androidTestAnnotationProcessor daggerCompiler
 
     // Instrumentation test dependencies
+    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.1'
+
     androidTestCompile jUnit
     androidTestCompile mockito
     androidTestCompile "org.mockito:mockito-android:$MOCKITO_VERSION"
