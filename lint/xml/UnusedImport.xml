@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthActivity.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import il.co.moveyorg.movey.ui.auth.login.LoginPresenter;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import rx.observers.TestSubscriber;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import rx.Subscriber;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import rx.Observer;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import io.reactivex.FlowableSubscriber;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import io.reactivex.Flowable;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import il.co.moveyorg.movey.util.RxEventBus;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import java.util.function.Consumer;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import org.reactivestreams.Subscription;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.auth.AuthResult;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.common.eventbus.Subscribe;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.tasks.Task;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.tasks.OnCompleteListener;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.support.annotation.NonNull;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.auth.FirebaseAuth;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.common.api.GoogleApiClient;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.common.SignInButton;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.auth.api.signin.GoogleSignInResult;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.auth.api.signin.GoogleSignInOptions;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.auth.api.Auth;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.content.Intent;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import il.co.moveyorg.movey.data.firebase.FirebaseDbHelper;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.storage.UploadTask;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.storage.StorageReference;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.storage.FirebaseStorage;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.database.ValueEventListener;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.database.DatabaseError;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.database.DataSnapshot;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.tasks.OnSuccessListener;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.android.gms.tasks.OnFailureListener;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.text.TextWatcher;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.text.Editable;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.support.annotation.NonNull;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import org.junit.Before;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import com.google.firebase.auth.FirebaseUser;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.text.TextUtils;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.support.v4.app.FragmentActivity;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <description>Unused import &lt;code&gt;import android.content.Context;&lt;/code&gt; #loc</description>
+  </problem>
+</problems>
+

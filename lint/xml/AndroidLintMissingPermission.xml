@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Missing Permissions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Missing permissions required by FirebaseAnalytics.getInstance: android.permission.WAKE_LOCK&lt;/html&gt;</description>
+  </problem>
+</problems>
+

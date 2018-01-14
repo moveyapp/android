@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.BaseFragment void onDestroy()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DbOpenHelper.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.local.DbOpenHelper void onConfigure(android.database.sqlite.SQLiteDatabase db)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>168</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment void onResume()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>173</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment void onPause()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment void onActivityCreated(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>183</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment void onLowMemory()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>163</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment void onSaveInstanceState(android.os.Bundle outState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseAuthHelper.Email void login()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>The method is empty</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.register.RegisterPresenter void detachView()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginMvpView.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginMvpView void onLoginFailed()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="true" />
+    </hints>
+    <description>All implementations of this method are empty</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView void showToast(java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="true" />
+    </hints>
+    <description>All implementations of this method are empty</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView void onError()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="true" />
+    </hints>
+    <description>All implementations of this method are empty</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java</file>
+    <line>142</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.MoveyActivity void onResume()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="false" />
+    </hints>
+    <description>Method only calls its super</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthMvpView.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.AuthMvpView void onAuthFailed()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty method</problem_class>
+    <hints>
+      <hint value="true" />
+    </hints>
+    <description>All implementations of this method are empty</description>
+  </problem>
+</problems>
+

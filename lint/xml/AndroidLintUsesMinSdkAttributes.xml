@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Minimum SDK and target SDK attributes not defined</problem_class>
+    <hints />
+    <description>&lt;html&gt;Manifest should specify a minimum API level with &lt;code&gt;&amp;lt;uses-sdk android:minSdkVersion=&quot;?&quot; /&gt;&lt;/code&gt;; if it really supports all versions of Android set it to 1.&lt;/html&gt;</description>
+  </problem>
+</problems>
+

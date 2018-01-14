@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;allowBackup&lt;/code&gt; is only used in API level 4 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_person_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_person_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>40</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>48</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;inputType&lt;/code&gt; is only used in API level 3 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;allowBackup&lt;/code&gt; is only used in API level 4 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_details_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_details_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_email_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_email_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_verified_user_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_verified_user_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Attribute &lt;code&gt;alpha&lt;/code&gt; is only used in API level 11 and higher (current min is 1)&lt;/html&gt;</description>
+  </problem>
+</problems>
+

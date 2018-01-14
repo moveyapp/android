@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.DataManager io.reactivex.Observable&lt;il.co.moveyorg.movey.data.model.Ribot&gt; syncRibots()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Anonymous type can be replaced with method reference</problem_class>
+    <description>Anonymous new Function&lt;List&lt;Ribot&gt;, ObservableSource&lt;? extends Ribot&gt;&gt;() can be replaced with method reference</description>
+  </problem>
+</problems>
+

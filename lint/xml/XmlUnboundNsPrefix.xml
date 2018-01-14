@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/findbugs/android-exclude-filter.xml</file>
+    <line>2</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/findbugs/android-exclude-filter.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/findbugs/android-exclude-filter.xml</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/findbugs/android-exclude-filter.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>2</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>11</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_perm_media_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_perm_media_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_perm_media_black_24dp.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_perm_media_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_black_24dp.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_edit_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_edit_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_edit_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_edit_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_details_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_details_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_details_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_details_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_email_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_email_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_email_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_email_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_verified_user_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_verified_user_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_verified_user_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_verified_user_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_location_on_black_24dp.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_location_on_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_location_on_black_24dp.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_location_on_black_24dp.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unbound XML namespace prefix</problem_class>
+    <description>Namespace is not bound</description>
+  </problem>
+</problems>
+

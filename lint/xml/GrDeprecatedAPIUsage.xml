@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/quality.gradle</file>
+    <line>34</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/quality.gradle" />
+    <problem_class severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API inspection</problem_class>
+    <description>'destination' is deprecated</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/quality.gradle</file>
+    <line>60</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/quality.gradle" />
+    <problem_class severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API inspection</problem_class>
+    <description>'destination' is deprecated</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/quality.gradle</file>
+    <line>63</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/quality.gradle" />
+    <problem_class severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API inspection</problem_class>
+    <description>'destination' is deprecated</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/quality.gradle</file>
+    <line>84</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/quality.gradle" />
+    <problem_class severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API inspection</problem_class>
+    <description>'destination' is deprecated</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/quality.gradle</file>
+    <line>87</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/quality.gradle" />
+    <problem_class severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API inspection</problem_class>
+    <description>'destination' is deprecated</description>
+  </problem>
+</problems>
+

@@ -3,6 +3,8 @@ package il.co.moveyorg.movey.test.common.injection.module;
 import android.app.Application;
 import android.content.Context;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -51,4 +53,9 @@ public class ApplicationTestModule {
         return mock(RibotsService.class);
     }
 
+
+    @Provides
+    FirebaseAuth provideFirebaseAuth() {
+        return FirebaseAuth.getInstance();
+    }
 }

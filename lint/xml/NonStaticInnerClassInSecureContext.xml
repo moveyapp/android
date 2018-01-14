@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.ribot.RibotsAdapter.RibotViewHolder" />
+    <problem_class severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Non-'static' inner class in secure context</problem_class>
+    <description>Non-'static' inner class &lt;code&gt;RibotViewHolder&lt;/code&gt;, compromising security #loc</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.DataManager io.reactivex.Observable&lt;il.co.moveyorg.movey.data.model.Ribot&gt; syncRibots()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new Function&lt;List&lt;Ribot&gt;, ObservableSource&lt;? extends Ribot&gt;&gt;() can be replaced with lambda</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.local.DatabaseHelper io.reactivex.Observable&lt;il.co.moveyorg.movey.data.model.Ribot&gt; setRibots(java.util.Collection&lt;il.co.moveyorg.movey.data.model.Ribot&gt; newRibots)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new ObservableOnSubscribe&lt;Ribot&gt;() can be replaced with lambda</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>71</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.local.DatabaseHelper io.reactivex.Observable&lt;java.util.List&lt;il.co.moveyorg.movey.data.model.Ribot&gt;&gt; getRibots()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new Function&lt;Cursor, Ribot&gt;() can be replaced with lambda</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/RxSchedulersOverrideRule.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.util.RxSchedulersOverrideRule mRxJavaImmediateScheduler" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new Function&lt;Scheduler, Scheduler&gt;() can be replaced with lambda</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/RxSchedulersOverrideRule.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.util.RxSchedulersOverrideRule mRxAndroidSchedulersHook" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new Function&lt;Callable&lt;Scheduler&gt;, Scheduler&gt;() can be replaced with lambda</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/util/RxEspressoScheduleHandler.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.RxEspressoScheduleHandler java.lang.Runnable apply(java.lang.Runnable runnable)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Anonymous type can be replaced with lambda</problem_class>
+    <description>Anonymous new Runnable() can be replaced with lambda</description>
+  </problem>
+</problems>
+

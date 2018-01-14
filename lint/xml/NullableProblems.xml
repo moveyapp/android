@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java</file>
+    <line>67</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.BaseFragment void onSaveInstanceState(android.os.Bundle outState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/media/MediaFragment.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.media</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.media.MediaFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.feed.FeedFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/notif/NotificationsFragment.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.notif</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.notif.NotificationsFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>88</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.register.RegisterFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginFragment android.view.View onCreateView(android.view.LayoutInflater inflater, android.view.ViewGroup container, android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+</problems>
+

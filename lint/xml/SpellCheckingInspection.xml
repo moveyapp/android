@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebaseio'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appspot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>11</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mobilesdk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'admini'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ounjj'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'hdtm'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Hhee'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>31</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appinvite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>42</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mobilesdk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>44</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>44</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'androidboilerplate'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>49</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ounjj'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>49</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'hdtm'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>49</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>55</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Hhee'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>62</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appinvite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>73</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mobilesdk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>75</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>75</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>80</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ounjj'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>80</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'hdtm'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>80</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>86</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Hhee'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>93</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appinvite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build.gradle</file>
+    <line>28</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bugfix'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build.gradle</file>
+    <line>106</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'BUTTERKNIFE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build.gradle</file>
+    <line>108</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'GSON'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build.gradle</file>
+    <line>115</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'FIREBASE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build.gradle</file>
+    <line>182</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'REACTIVEX'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>29</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>30</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>51</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'editprofile'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>55</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signup'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>55</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/item_ribot.xml</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/item_ribot.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml</file>
+    <line>19</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml</file>
+    <line>40</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml</file>
+    <line>45</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_movey.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml</file>
+    <line>12</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>2</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Yryx'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'aren'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>15</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>15</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/styles.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'brite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Brite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DbOpenHelper.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DbOpenHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/Db.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/Db.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/Db.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/Db.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/Ribot.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.remote</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.remote</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.remote</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.remote</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.remote</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/remote/RibotsService.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/MyGsonTypeAdapterFactory.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/MyGsonTypeAdapterFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Gson'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/RxEventBus.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/RxEventBus.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Backpressure'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Robolectric'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>70</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>67</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>62</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>73</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/DefaultConfig.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/DefaultConfig.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Robolectric'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/DefaultConfig.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/util/DefaultConfig.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Roboelectric'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java</file>
+    <line>52</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common.injection.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java</file>
+    <line>52</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common.injection.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common.injection.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/RxAndroidJUnitRunner.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/RxAndroidJUnitRunner.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Indling'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruleset'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruleset'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruleset'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>5</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruleset'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruleset'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>12</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>15</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>19</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>23</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>25</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Stmts'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>27</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>31</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/pmd/pmd-ruleset.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'rulesets'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml</file>
+    <line>50</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'CTOR'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml</file>
+    <line>107</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'BNOT'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml</file>
+    <line>107</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/config/quality/checkstyle/checkstyle-config.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'LNOT'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/MoveyApplication.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/MoveyApplication.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/MoveyApplication.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/MoveyApplication.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/selector_background_activity_auth.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_background_activity_auth.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'cardview'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/selector_background_activity_auth.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_background_activity_auth.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'cardview'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'editprofile'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>19</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'edittext'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>27</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'edittext'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'edittext'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_user_details.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'edittext'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>71</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>71</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>85</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>86</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedMvpView.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedPresenter.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfilePresenter.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfilePresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/RibotsAdapter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>85</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>85</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>97</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java</file>
+    <line>64</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/FragmentComponent.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/FragmentComponent.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/FragmentModule.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/FragmentModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ApplicationModule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseStorageHelper.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseStorageHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseStorageHelper.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseStorageHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signup'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java</file>
+    <line>104</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Registeration'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java</file>
+    <line>111</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Registeration'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Registeration'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Registeration'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginMvpView.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Signup'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>116</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java</file>
+    <line>51</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firstname'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java</file>
+    <line>51</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'lastname'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java</file>
+    <line>93</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ounjj'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'hdtm'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebaseio'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Hhee'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Hhee'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appspot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml</file>
+    <line>10</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'lense'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/video_cam.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/video_cam.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/no_notifications.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/progress_bar.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'notif'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/main_actionbar.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/main_actionbar.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/README.md</file>
+    <line>3</line>
+    <module>android</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ubunto'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/README.md</file>
+    <line>4</line>
+    <module>android</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'libstdc'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/README.md</file>
+    <line>5</line>
+    <module>android</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'netdelay'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/README.md</file>
+    <line>5</line>
+    <module>android</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'netspeed'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestComponentRule.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestComponentRule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestComponentRule.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestComponentRule.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Ribots'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestDataFactory.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ribot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'shlomi'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'algmail'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'gmail'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java</file>
+    <line>92</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java</file>
+    <line>193</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'uncheck'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ideashower'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'readitlater'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthMvpView.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthMvpView.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'eladk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruoi'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ruoi'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/assets/empty_box.json</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/assets/empty_box.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ADBE'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_media.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_media.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_media.xml</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_media.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>10</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>10</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>13</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'moveyorg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'movey'</description>
+  </problem>
+</problems>
+

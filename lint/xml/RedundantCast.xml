@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/MoveyActivity.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.MoveyActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.search_view)&lt;/code&gt; to &lt;code&gt;MaterialSearchView&lt;/code&gt; is redundant</description>
+  </problem>
+</problems>
+

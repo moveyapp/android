@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 5 (current min is 1): &lt;code&gt;android.app.Service#START_NOT_STICKY&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java</file>
+    <line>79</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 5 (current min is 1): &lt;code&gt;android.app.Service#START_STICKY&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/DatabaseHelper.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 8 (current min is 1): &lt;code&gt;android.database.sqlite.SQLiteDatabase#CONFLICT_REPLACE&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 4 (current min is 1): &lt;code&gt;android.util.DisplayMetrics#densityDpi&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 3 (current min is 1): &lt;code&gt;android.content.Context#INPUT_METHOD_SERVICE&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 8 (current min is 1): &lt;code&gt;android.content.res.Configuration#uiMode&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 8 (current min is 1): &lt;code&gt;android.content.res.Configuration#UI_MODE_NIGHT_MASK&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.data.model.User" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedMvpView.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.feed.FeedMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/feed/FeedPresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.feed</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.feed.FeedPresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfilePresenter.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfilePresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/FragmentComponent.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/FragmentComponent.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/FragmentModule.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.di.module.FragmentModule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseStorageHelper.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseStorageHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseDbHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseAuthHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterPresenter.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.register.RegisterPresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/register/RegisterMvpView.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.register</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.register.RegisterMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginMvpView.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginPresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfilePresenter.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfilePresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/ThirdPartyLoginPresenter.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.login.ThirdPartyLoginPresenter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthMvpView.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.auth.AuthMvpView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+</problems>
+

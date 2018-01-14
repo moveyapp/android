@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/AboutActivity.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.AboutActivity mehdi.sakout.aboutpage.Element getCopyRightsElement()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Malformed format string</problem_class>
+    <description>Too many arguments for format string (found: 1, expected: 0) #loc</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>74</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.MainPresenterTest void loadRibotsFails()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>79</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.MainPresenterTest void loadRibotsFails()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.MainPresenterTest void loadRibotsReturnsEmptyList()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>67</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.MainPresenterTest void loadRibotsReturnsEmptyList()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>75</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.DataManagerTest void syncRibotsDoesNotCallDatabaseWhenApiFails()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>80</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.DataManagerTest void syncRibotsDoesNotCallDatabaseWhenApiFails()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/ribot/MainActivity.java</file>
+    <line>98</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.ribot</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.ribot.MainActivity void showRibotsEmpty()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type arguments</problem_class>
+    <description>Explicit type arguments can be inferred</description>
+  </problem>
+</problems>
+

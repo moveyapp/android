@@ -40,6 +40,17 @@
 -keepattributes Signature
 # Retain declared checked exceptions for use by a Proxy instance.
 -keepattributes Exceptions
+#keep class
+-keep class il.co.moveyorg.movey.ui.main.profile.ProfileFragment
+#keep function
+-keep class il.co.moveyorg.movey.ui.main.notif.NotificationsFragment {
+ public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState);
+}
+#keep classes members
+-keepclassmembers il.co.moveyorg.movey.ui.main.profile.ProfileFragment {
+     private FirebaseAuth firebaseAuth;
+     private FirebaseAnalytics mFirebaseAnalytics;
+}
 
 # OkHttp rules
 -dontwarn okio.**

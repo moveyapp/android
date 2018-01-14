@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileFragment.java</file>
+    <line>65</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileFragment userDbRef" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileActivity.java</file>
+    <line>62</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity currentUser" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ChangeTextBehaviorTest mDevice" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+</problems>
+

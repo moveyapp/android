@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml</file>
+    <line>9</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;FrameLayout&lt;/code&gt;: &lt;code&gt;layout_centerVertical&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

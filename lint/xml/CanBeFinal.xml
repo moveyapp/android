@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>90</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.data.model.User.Builder email" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>89</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.data.model.User.Builder id" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/FragmentModule.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.di.module.FragmentModule mFragment" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/module/ActivityModule.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.module</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.di.module.ActivityModule mActivity" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+</problems>
+

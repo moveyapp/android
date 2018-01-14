@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/Presenter.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.Presenter void detachView()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used as a member of this interface, but only as a member of the implementation class(es). The project will stay compilable if the method is removed from the interface.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/Presenter.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.Presenter void attachView(V mvpView)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used as a member of this interface, but only as a member of the implementation class(es). The project will stay compilable if the method is removed from the interface.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseActivity.java</file>
+    <line>65</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.BaseActivity com.google.firebase.auth.FirebaseUser getCurrentAuthUser()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/base/BaseFragment.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.base</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.base.BaseFragment boolean isUserLoggedIn()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/SyncService.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.SyncService boolean isRunning(android.content.Context context)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/DataManager.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.DataManager il.co.moveyorg.movey.data.local.PreferencesHelper getPreferencesHelper()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/Db.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.local.Db Db()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Constructor is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/local/PreferencesHelper.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.local</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.local.PreferencesHelper void clear()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.ViewUtil void hideKeyboard(android.app.Activity activity)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.ViewUtil int dpToPx(int dp)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/ViewUtil.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.ViewUtil float pxToDp(float px)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/DialogFactory.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.DialogFactory android.app.ProgressDialog createProgressDialog(android.content.Context context, int messageResource)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/DialogFactory.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.DialogFactory android.app.Dialog createSimpleOkErrorDialog(android.content.Context context, int titleResource, int messageResource)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/DialogFactory.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.DialogFactory android.app.Dialog createGenericErrorDialog(android.content.Context context, int messageResource)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/util/NetworkUtil.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.util</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.util.NetworkUtil boolean isHttpStatusCode(java.lang.Throwable throwable, int statusCode)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>98</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User.Builder il.co.moveyorg.movey.data.model.User.Builder firstName(java.lang.String firstName)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>103</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User.Builder il.co.moveyorg.movey.data.model.User.Builder lastName(java.lang.String lastName)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>108</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User.Builder il.co.moveyorg.movey.data.model.User.Builder userName(java.lang.String userName)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>113</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User.Builder il.co.moveyorg.movey.data.model.User.Builder country(java.lang.String country)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User void setEmail(java.lang.String email)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/model/User.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.model</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.model.User java.lang.String getEmail()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileMvpView void showMapLocation()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>&lt;ul&gt;&lt;li&gt;Method owner class is never instantiated OR&lt;/li&gt;&lt;li&gt;An instantiation is not reachable from entry points.&lt;/li&gt;&lt;/ul&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileMvpView" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>&amp;nbsp;Interface is not implemented.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfileMvpView.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfileMvpView void showUserDetails()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>&lt;ul&gt;&lt;li&gt;Method owner class is never instantiated OR&lt;/li&gt;&lt;li&gt;An instantiation is not reachable from entry points.&lt;/li&gt;&lt;/ul&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent il.co.moveyorg.movey.data.remote.RibotsService ribotsService()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent il.co.moveyorg.movey.data.local.DatabaseHelper databaseHelper()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent android.content.Context context()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent il.co.moveyorg.movey.data.local.PreferencesHelper preferencesHelper()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent android.app.Application application()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/ApplicationComponent.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.ApplicationComponent il.co.moveyorg.movey.util.RxEventBus eventBus()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/di/component/FragmentComponent.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.di.component</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.di.component.FragmentComponent void inject(il.co.moveyorg.movey.ui.main.profile.ProfileFragment profileFragment)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseDbHelper MAIN_SOCIAL_PATH" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseAuthHelper.Email void login()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginMvpView.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginMvpView void onLoginFailed()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginPresenter TAG" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginPresenter RC_SIGN_IN_GOOGLE" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginPresenter.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginPresenter mGoogleApiClient" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/login/LoginFragment.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.login</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ui.auth.login.LoginFragment RC_SIGN_IN_GOOGLE" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView void showToast(java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView void showToast(java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused declaration</problem_class>
+    <hints>
+      <hint value="msg" />
+    </hints>
+    <description>Parameter &lt;code&gt;msg&lt;/code&gt; is not used  in either this method or any of its derived methods</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/editprofile/EditProfileMvpView.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth.editprofile</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.editprofile.EditProfileMvpView void onError()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/TestComponentRule.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.test.common.TestComponentRule android.content.Context getContext()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/auth/AuthMvpView.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.auth</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.ui.auth.AuthMvpView void showToast(java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="field" FQNAME="il.co.moveyorg.movey.ChangeTextBehaviorTest STRING_TO_BE_TYPED" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/ui/main/profile/ProfilePresenter.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.ui.main.profile</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.ui.main.profile.ProfilePresenter" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Class is not instantiated.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseAuthHelper.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="class" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseAuthHelper" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Class is not instantiated.</description>
+  </problem>
+</problems>
+

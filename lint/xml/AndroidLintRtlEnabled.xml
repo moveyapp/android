@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml</file>
+    <line>10</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using RTL attributes without enabling RTL support</problem_class>
+    <hints />
+    <description>&lt;html&gt;You must set &lt;code&gt;android:targetSdkVersion&lt;/code&gt; to at least 17 when enabling RTL support (is -1)&lt;/html&gt;</description>
+  </problem>
+</problems>
+

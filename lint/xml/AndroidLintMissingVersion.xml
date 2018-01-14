@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>2</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing application name/version</problem_class>
+    <hints />
+    <description>&lt;html&gt;Should set &lt;code&gt;android:versionCode&lt;/code&gt; to specify the application version&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>2</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing application name/version</problem_class>
+    <hints />
+    <description>&lt;html&gt;Should set &lt;code&gt;android:versionName&lt;/code&gt; to specify the application version&lt;/html&gt;</description>
+  </problem>
+</problems>
+

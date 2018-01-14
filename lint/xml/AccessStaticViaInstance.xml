@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.LoginTest void validationEmailTest()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Access static member via instance reference</problem_class>
+    <description>Static member 'il.co.moveyorg.movey.ui.auth.login.LoginPresenter.isValidEmail(java.lang.String)' accessed via instance reference</description>
+  </problem>
+</problems>
+

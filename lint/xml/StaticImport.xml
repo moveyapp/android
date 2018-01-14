@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.never;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.verify;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/MainPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DatabaseHelperTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static junit.framework.Assert.assertEquals;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.never;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.verify;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/DataManagerTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.test.common.injection.module</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/commonTest/java/il/co/moveyorg/movey/test/common/injection/module/ApplicationTestModule.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.mock;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.content.Context.KEYGUARD_SERVICE;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.content.Context.POWER_SERVICE;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.os.PowerManager.ACQUIRE_CAUSES_WAKEUP;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.os.PowerManager.FULL_WAKE_LOCK;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.runner</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/runner/UnlockDeviceAndroidJUnitRunner.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.os.PowerManager.ON_AFTER_RELEASE;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.Espresso.onView;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.assertion.ViewAssertions.matches;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.matcher.ViewMatchers.withId;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.matcher.ViewMatchers.withText;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.mock;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/il/co/moveyorg/movey/LoginTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static android.support.test.espresso.matcher.ViewMatchers.assertThat;&lt;/code&gt;  #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/il/co/moveyorg/movey/ChangeTextBehaviorTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+    <description>Static import &lt;code&gt;import static org.hamcrest.core.IsNull.notNullValue;&lt;/code&gt;  #loc</description>
+  </problem>
+</problems>
+

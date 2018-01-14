@@ -5,6 +5,26 @@ apply plugin: 'com.github.triplet.play'
 //apply plugin: 'io.fabric'
 
 android {
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkAllWarnings true
+        warningsAsErrors true
+        abortOnError false
+    }
     compileSdkVersion 27
     buildToolsVersion '26.0.2'
 

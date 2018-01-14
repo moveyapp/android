@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Node can be replaced by a TextView with compound drawables</problem_class>
+    <hints />
+    <description>&lt;html&gt;This tag and its children can be replaced by one &lt;code&gt;&amp;lt;TextView/&gt;&lt;/code&gt; and a compound drawable&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml</file>
+    <line>52</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Node can be replaced by a TextView with compound drawables</problem_class>
+    <hints />
+    <description>&lt;html&gt;This tag and its children can be replaced by one &lt;code&gt;&amp;lt;TextView/&gt;&lt;/code&gt; and a compound drawable&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml</file>
+    <line>99</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Node can be replaced by a TextView with compound drawables</problem_class>
+    <hints />
+    <description>&lt;html&gt;This tag and its children can be replaced by one &lt;code&gt;&amp;lt;TextView/&gt;&lt;/code&gt; and a compound drawable&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/main_actionbar.xml</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/main_actionbar.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Node can be replaced by a TextView with compound drawables</problem_class>
+    <hints />
+    <description>&lt;html&gt;This tag and its children can be replaced by one &lt;code&gt;&amp;lt;TextView/&gt;&lt;/code&gt; and a compound drawable&lt;/html&gt;</description>
+  </problem>
+</problems>
+

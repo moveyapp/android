@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/il/co/moveyorg/movey/data/firebase/FirebaseDbHelper.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>il.co.moveyorg.movey.data.firebase</package>
+    <entry_point TYPE="method" FQNAME="il.co.moveyorg.movey.data.firebase.FirebaseDbHelper.Users com.google.firebase.database.ValueEventListener getUser(java.lang.String uid, com.google.firebase.database.ValueEventListener valueEventListener)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be void</problem_class>
+    <hints />
+    <description>Return value of the method is never used</description>
+  </problem>
+</problems>
+
