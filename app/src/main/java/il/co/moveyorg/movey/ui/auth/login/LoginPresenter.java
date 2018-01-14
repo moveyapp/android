@@ -58,14 +58,27 @@ public class LoginPresenter extends BasePresenter<LoginMvpView> {
     }
   }
 
+  public boolean isEmail(String email) {
+    if (TextUtils.isEmpty(email)) {
+      return true;
+    }
+    return false;
+  }
+
+  public boolean isPassword(String password) {
+    if (TextUtils.isEmpty(password)) {
+      getMvpView().showToast("Please enter password");
+      return true;
+    }
+    return false;
+  }
 
   public void login(FragmentActivity context, String email, String password) {
-    if (TextUtils.isEmpty(email)) {
+    if (isEmail(email)) {
       getMvpView().showToast("Please enter email");
       return;
     }
-
-    if (TextUtils.isEmpty(password)) {
+    if (isPassword(password)) {
       getMvpView().showToast("Please enter password");
       return;
     }
