@@ -55,7 +55,7 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
   }
 
   public void addPost(Post post) {
-    posts.add(post);
+    posts.add(0,post);
   }
 
   class PostViewHolder extends RecyclerView.ViewHolder {

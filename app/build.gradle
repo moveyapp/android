@@ -123,7 +123,6 @@ dependencies {
     compile 'com.kelvinapps:rxfirebase:0.0.15'
     compile 'com.android.support:multidex:1.0.2'
 
-
     // VIEWS
     implementation "com.android.support.constraint:constraint-layout:1.0.2"
     //noinspection GradleCompatible
@@ -139,17 +138,13 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.2.0'
     compile 'com.flipboard:bottomsheet-core:1.5.3'
 
-
-
     // HELPER ACTIVITIES
     compile 'com.github.medyo:android-about-page:1.2.2'
-
 
     // LOCATION
     compile "com.google.android.gms:play-services-location:$PLAY_SERVICES_VERSION"
     compile "com.google.android.gms:play-services-places:$PLAY_SERVICES_VERSION"
     compile 'pl.charmas.android:android-reactive-location2:2.0@aar' // location
-
 
     // PERMISSIONS
     compile 'com.karumi:dexter:4.2.0' // permissions lib
@@ -165,14 +160,12 @@ dependencies {
     compile 'org.parceler:parceler-api:1.1.6'
     annotationProcessor 'org.parceler:parceler:1.1.6'
 
-
     // NETWORK
     compile 'com.github.bumptech.glide:glide:4.3.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
     compile "com.squareup.retrofit2:retrofit:$RETROFIT_VERSION"
     compile "com.squareup.retrofit2:converter-gson:$RETROFIT_VERSION"
     compile "com.squareup.retrofit2:adapter-rxjava2:$RETROFIT_VERSION"
-
 
     // LOCAL DB
     compile('com.squareup.sqlbrite2:sqlbrite:2.0.0') {
@@ -188,7 +181,6 @@ dependencies {
 
     // LOGS & REPORTS
     compile 'com.jakewharton.timber:timber:4.5.1'
-
 
     // DEPENDENCY INJECTION
     compile "com.jakewharton:butterknife:$BUTTERKNIFE_VERSION"
