@@ -1,6 +1,7 @@
 package il.co.moveyorg.movey.ui.main.feed;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -16,6 +17,8 @@ import android.widget.Toast;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.List;
 
 import javax.inject.Inject;
@@ -25,109 +28,120 @@ import butterknife.ButterKnife;
 import il.co.moveyorg.movey.R;
 import il.co.moveyorg.movey.data.model.Post;
 import il.co.moveyorg.movey.ui.base.BaseFragment;
+import il.co.moveyorg.movey.ui.main.feed.post_page.PostActivity;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnClickListener {
+public class FeedFragment extends BaseFragment implements FeedMvpView, View.OnClickListener, FeedAdapter.OnPostClickListener {
 
-    @Inject
-    FeedPresenter feedPresenter;
+  @Inject
+  FeedPresenter feedPresenter;
 
-    @Inject
-    FeedAdapter feedAdapter;
+  @Inject
+  FeedAdapter feedAdapter;
 
-    @BindView(R.id.recycler_view)
-    RecyclerView mRecyclerView;
+  @BindView(R.id.recycler_view)
+  RecyclerView mRecyclerView;
 
-    @BindView(R.id.fragment_feed_bottomsheet)
-    BottomSheetLayout createPostBottomSheet;
+  @BindView(R.id.fragment_feed_bottomsheet)
+  BottomSheetLayout createPostBottomSheet;
 
-    @BindView(R.id.fragment_feed_fab_create_post)
-    FloatingActionButton openCreatePostLayoutBtn;
-    private Button createPostBtn;
-    private EditText editPostContent;
-
-
-    public FeedFragment() {
-        // Required empty public constructor
-    }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        fragmentComponent().inject(this);
-
-    }
+  @BindView(R.id.fragment_feed_fab_create_post)
+  FloatingActionButton openCreatePostLayoutBtn;
+  private Button createPostBtn;
+  private EditText editPostContent;
 
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_feed, container, false);
+  public FeedFragment() {
+    // Required empty public constructor
+  }
 
-        ButterKnife.bind(this,view);
+  @Override
+  public void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    fragmentComponent().inject(this);
 
-        mRecyclerView.setAdapter(feedAdapter);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-
-        feedPresenter.attachView(this);
-        feedPresenter.loadFeed();
-
-        openCreatePostLayoutBtn.setOnClickListener(this);
-
-        return view;
-    }
-
-    @Override
-    public void showPosts(List<Post> posts) {
-        feedAdapter.setPosts(posts);
-        feedAdapter.notifyDataSetChanged();
-
-    }
-
-    @Override
-    public void addPost(Post post) {
-        feedAdapter.addPost(post);
-        feedAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    public void dismissCreatePost() {
-        createPostBottomSheet.dismissSheet();
-    }
+  }
 
 
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.fragment_feed_fab_create_post: {
-                openCreatePost();
-                break;
-            }
-            case R.id.create_post_submit_btn: {
+  @Override
+  public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                           Bundle savedInstanceState) {
+    // Inflate the layout for this fragment
+    View view = inflater.inflate(R.layout.fragment_feed, container, false);
+
+    ButterKnife.bind(this, view);
+
+    feedAdapter.setOnItemClick(this);
+
+    mRecyclerView.setAdapter(feedAdapter);
+    mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+    feedPresenter.attachView(this);
+    feedPresenter.loadFeed();
+
+    openCreatePostLayoutBtn.setOnClickListener(this);
+
+    return view;
+  }
+
+  @Override
+  public void showPosts(List<Post> posts) {
+    feedAdapter.setPosts(posts);
+    feedAdapter.notifyDataSetChanged();
+
+  }
+
+  @Override
+  public void addPost(Post post) {
+    feedAdapter.addPost(post);
+    feedAdapter.notifyDataSetChanged();
+  }
+
+  @Override
+  public void dismissCreatePost() {
+    createPostBottomSheet.dismissSheet();
+  }
+
+
+  @Override
+  public void onClick(View view) {
+    switch (view.getId()) {
+      case R.id.fragment_feed_fab_create_post: {
+        openCreatePost();
+        break;
+      }
+      case R.id.create_post_submit_btn: {
 //                Toast.makeText(getActivity(), "Post clicked!", Toast.LENGTH_SHORT).show();
-                if (editPostContent != null) {
-                    feedPresenter.createNewPost(editPostContent.getText().toString());
-                }
-                break;
-            }
-
+        if (editPostContent != null) {
+          feedPresenter.createNewPost(editPostContent.getText().toString());
         }
+        break;
+      }
+
     }
+  }
 
-    private void openCreatePost() {
-        createPostBottomSheet.setPeekSheetTranslation(600);
+  private void openCreatePost() {
+    createPostBottomSheet.setPeekSheetTranslation(600);
 
-        createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
+    createPostBottomSheet.showWithSheetView(LayoutInflater.from(getActivity()).inflate(R.layout.layout_create_new_post, createPostBottomSheet, false));
 
-        createPostBtn =
-            createPostBottomSheet.findViewById(R.id.create_post_submit_btn);
+    createPostBtn =
+        createPostBottomSheet.findViewById(R.id.create_post_submit_btn);
 
-        editPostContent =
-            createPostBottomSheet.findViewById(R.id.create_post_layout_edit_post_textview);
+    editPostContent =
+        createPostBottomSheet.findViewById(R.id.create_post_layout_edit_post_textview);
 
-        createPostBtn.setOnClickListener(this);
-    }
+    createPostBtn.setOnClickListener(this);
+
+  }
+
+  @Override
+  public void onClick(Post post) {
+//    Toast.makeText(getActivity(), "Post:" + post.getContent(), Toast.LENGTH_SHORT).show();
+    EventBus.getDefault().postSticky(post);
+    getActivity().startActivity(new Intent(getActivity(), PostActivity.class));
+  }
 }

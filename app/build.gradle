@@ -159,6 +159,8 @@ dependencies {
     compile 'com.evernote:android-state:1.1.6'
     compile 'org.parceler:parceler-api:1.1.6'
     annotationProcessor 'org.parceler:parceler:1.1.6'
+    compile 'org.greenrobot:eventbus:3.1.1'
+
 
     // NETWORK
     compile 'com.github.bumptech.glide:glide:4.3.1'

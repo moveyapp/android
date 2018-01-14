@@ -5,6 +5,7 @@ import il.co.moveyorg.movey.di.PerActivity;
 import il.co.moveyorg.movey.di.module.ActivityModule;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
+import il.co.moveyorg.movey.ui.main.feed.post_page.PostActivity;
 import il.co.moveyorg.movey.ui.ribot.MainActivity;
 
 /**
@@ -19,4 +20,6 @@ public interface ActivityComponent {
   void inject(EditProfileActivity editProfileActivity);
 
   void inject(AuthActivity authActivity);
+
+  void inject(PostActivity postActivity);
 }

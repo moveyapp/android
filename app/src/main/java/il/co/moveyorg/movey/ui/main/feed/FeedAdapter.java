@@ -21,9 +21,10 @@ import il.co.moveyorg.movey.data.model.Post;
  * Created by eladk on 1/13/18.
  */
 
-public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder> {
+public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder>{
 
   private List<Post> posts;
+  private OnPostClickListener onPostClickListener;
 
   @Inject
   FeedAdapter() {
@@ -34,6 +35,9 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
     this.posts = posts;
   }
 
+  public void setOnItemClick(OnPostClickListener onPostClickListener) {
+    this.onPostClickListener = onPostClickListener;
+  }
 
   @Override
   public FeedAdapter.PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -47,6 +51,9 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
     Post post = posts.get(position);
     holder.content.setText(post.getContent());
     holder.username.setText(post.getUserName());
+    holder.commentBtn.setOnClickListener(view -> {
+        onPostClickListener.onClick(posts.get(position));
+    });
   }
 
   @Override
@@ -75,5 +82,9 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.PostViewHolder
       super(itemView);
       ButterKnife.bind(this, itemView);
     }
+  }
+
+  public interface OnPostClickListener {
+    void onClick(Post post);
   }
 }
