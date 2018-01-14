@@ -29,10 +29,8 @@ public class FeedPresenter extends BasePresenter<FeedMvpView> {
 
   @Inject
   FeedPresenter() {
-
   }
-
-
+  
   public void loadFeed() {
     FirebaseDbHelper.Posts.getRef().addChildEventListener(new ChildEventListener() {
       @Override
