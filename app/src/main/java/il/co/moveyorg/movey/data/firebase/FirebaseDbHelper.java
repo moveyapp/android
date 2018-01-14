@@ -1,18 +1,13 @@
 package il.co.moveyorg.movey.data.firebase;
 
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
+import il.co.moveyorg.movey.data.model.Comment;
 import il.co.moveyorg.movey.data.model.Post;
 import il.co.moveyorg.movey.data.model.User;
 
@@ -25,6 +20,7 @@ public class FirebaseDbHelper {
      private static final String MAIN_SOCIAL_PATH = "social";
      private static final String DB_USERS_PATH = "social/users";
      private static final String DB_POSTS_PATH = "social/posts";
+     private static final String DB_COMMENTS_PATH = "social/comments";
 
     @Inject
     public FirebaseDbHelper() {
@@ -73,4 +69,23 @@ public class FirebaseDbHelper {
     }
 
 
+  public static class Comments {
+
+      public static DatabaseReference getRef(){
+          return FirebaseDatabase.getInstance()
+              .getReference(DB_COMMENTS_PATH);
+      }
+
+      public static DatabaseReference getCommentsOfPost(String postId) {
+          return null;
+      }
+
+      public static void saveComment(Comment comment) {
+          if (comment != null){
+              getRef().push().setValue(comment);
+          }
+      }
+
+
+    }
 }
