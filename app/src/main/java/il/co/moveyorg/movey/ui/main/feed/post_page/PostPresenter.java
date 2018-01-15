@@ -38,7 +38,6 @@ public class PostPresenter extends BasePresenter<PostMvpView> {
   public void loadComments() {
     if (post == null) return;
 
-
     FirebaseDbHelper.Comments.getRef().addChildEventListener(new ChildEventListener() {
       @Override
       public void onChildAdded(DataSnapshot dataSnapshot, String s) {

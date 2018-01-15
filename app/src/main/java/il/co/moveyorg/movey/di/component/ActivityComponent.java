@@ -6,7 +6,6 @@ import il.co.moveyorg.movey.di.module.ActivityModule;
 import il.co.moveyorg.movey.ui.auth.AuthActivity;
 import il.co.moveyorg.movey.ui.auth.editprofile.EditProfileActivity;
 import il.co.moveyorg.movey.ui.main.feed.post_page.PostActivity;
-import il.co.moveyorg.movey.ui.ribot.MainActivity;
 
 /**
  * This component inject dependencies to all Activities across the application
@@ -15,7 +14,6 @@ import il.co.moveyorg.movey.ui.ribot.MainActivity;
 @Subcomponent(modules = ActivityModule.class)
 public interface ActivityComponent {
 
-  void inject(MainActivity mainActivity);
 
   void inject(EditProfileActivity editProfileActivity);
 
