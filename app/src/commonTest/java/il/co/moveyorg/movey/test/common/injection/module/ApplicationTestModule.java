@@ -55,7 +55,6 @@ public class ApplicationTestModule {
 
 
     @Provides
-    FirebaseAuth provideFirebaseAuth() {
-        return FirebaseAuth.getInstance();
-    }
+    FirebaseAuth provideFirebaseAuth() {return FirebaseAuth.getInstance();}
+
 }
